@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RejectChanges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc3cafbc-2397-4165-9336-ee56392f2ab7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>01aec915-76c0-4faf-8252-58522c54193f</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>6e57c9bf-fbe5-4d14-9246-26db1dd674a5</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

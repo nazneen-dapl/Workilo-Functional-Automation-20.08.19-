@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Listing</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>a784c8f8-3025-4637-afd6-3d03c9506616</testSuiteGuid>
+   <testCaseLink>
+      <guid>c94cdfbd-ae11-4bd4-a64c-cdecf9f095e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/Listing/Add Listing/AddListing</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a9295b6-9d28-469e-b977-fac361933208</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>695d6e69-d080-417b-88f8-589bfaa61a0b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e71022d4-cf38-44a8-bceb-cc90fba580a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/Listing/Edit Listing/EditListing</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88620003-1452-4977-a6ec-985491e8c185</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a118441e-cb05-41ed-bf03-2dcc340e7454</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

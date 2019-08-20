@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InboxRejectOrder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71512fd8-687a-4b8d-b085-d84530be4455</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>1957adad-048f-460d-814e-65cd6ba46e23</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>64174dce-fc4b-4f83-8839-94422fbb002b</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

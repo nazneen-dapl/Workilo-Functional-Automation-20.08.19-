@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CustomerSign IN,,,,2019-08-20 14:43:56,2019-08-20 14:43:58,1.794s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign IN/CustSignIn,,,,2019-08-20 14:43:56,2019-08-20 14:43:57,0.859s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:43:57,2019-08-20 14:43:57,0.004s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign IN/ServProvSignIn,,,,2019-08-20 14:43:57,2019-08-20 14:43:58,0.467s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:43:58,2019-08-20 14:43:58,0.001s,PASSED

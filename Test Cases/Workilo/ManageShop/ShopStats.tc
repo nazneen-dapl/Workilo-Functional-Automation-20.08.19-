@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ShopStats</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c43623a-0716-4125-9ae4-23426509ffad</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>5b31402f-374d-461a-a361-656c5aa8b8e9</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>f7da4d06-093a-4197-a1b3-076fd1541f74</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

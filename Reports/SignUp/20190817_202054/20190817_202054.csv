@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SignUp,,,,2019-08-17 20:20:58,2019-08-17 20:21:33,35.105s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidFirstLastName,,,,2019-08-17 20:20:59,2019-08-17 20:21:33,34.286s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-17 20:21:00,2019-08-17 20:21:00,0.008s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-17 20:21:00,2019-08-17 20:21:04,3.967s,PASSED
+window().maximize(),,,,2019-08-17 20:21:04,2019-08-17 20:21:05,1.168s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-17 20:21:05,2019-08-17 20:21:20,15.515s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-17 20:21:20,2019-08-17 20:21:20,0.026s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-17 20:21:20,2019-08-17 20:21:20,0.167s,PASSED
+Thread.sleep(2000),,,,2019-08-17 20:21:20,2019-08-17 20:21:22,2.011s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-17 20:21:22,2019-08-17 20:21:23,0.114s,PASSED
+Thread.sleep(2000),,,,2019-08-17 20:21:23,2019-08-17 20:21:25,2.002s,PASSED
+"id(""email"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-08-17 20:21:25,2019-08-17 20:21:25,0.205s,PASSED
+"id(""firstName"")).sendKeys(""12@12#."")",,,,2019-08-17 20:21:25,2019-08-17 20:21:25,0.152s,PASSED
+"id(""lastName"")).sendKeys(""12345"")",,,,2019-08-17 20:21:25,2019-08-17 20:21:25,0.107s,PASSED
+"id(""password"")).sendKeys(""admin#123"")",,,,2019-08-17 20:21:25,2019-08-17 20:21:25,0.118s,PASSED
+"id(""contact_number"")).sendKeys(""8520136974"")",,,,2019-08-17 20:21:25,2019-08-17 20:21:25,0.140s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-17 20:21:25,2019-08-17 20:21:25,0.108s,PASSED
+Thread.sleep(2000),,,,2019-08-17 20:21:25,2019-08-17 20:21:27,2.004s,PASSED
+"errorMessage = driver.findElement(By.id(""fname_error""))",,,,2019-08-17 20:21:27,2019-08-17 20:21:27,0.041s,PASSED
+js = driver,,,,2019-08-17 20:21:27,2019-08-17 20:21:27,0.001s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", errorMessage)",,,,2019-08-17 20:21:27,2019-08-17 20:21:28,0.019s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", driver.findElement(By.id(""lname_error"")))",,,,2019-08-17 20:21:28,2019-08-17 20:21:28,0.054s,PASSED
+Thread.sleep(5000),,,,2019-08-17 20:21:28,2019-08-17 20:21:33,5.001s,PASSED
+driver.quit(),,,,2019-08-17 20:21:33,2019-08-17 20:21:33,0.715s,PASSED

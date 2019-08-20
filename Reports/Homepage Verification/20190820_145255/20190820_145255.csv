@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Homepage Verification,,,,2019-08-20 14:53:10,2019-08-20 14:53:33,22.490s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/HomePage/TitleVerification,,,,2019-08-20 14:53:11,2019-08-20 14:53:33,21.953s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:53:12,2019-08-20 14:53:12,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 14:53:12,2019-08-20 14:53:15,3.730s,PASSED
+window().maximize(),,,,2019-08-20 14:53:15,2019-08-20 14:53:17,1.185s,PASSED
+try,,,,2019-08-20 14:53:17,2019-08-20 14:53:33,16.210s,PASSED

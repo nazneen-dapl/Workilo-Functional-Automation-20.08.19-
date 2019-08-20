@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TransactionHistory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94f1e53a-448f-4ce7-b5e9-1e5fcbf19b5b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>af27d5d5-6687-465e-a06a-ab83561a312e</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>5e1da3e5-b620-449a-ace0-04df03d9809f</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+</TestCaseEntity>

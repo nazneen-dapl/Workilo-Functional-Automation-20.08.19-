@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+InValid Booking,,,,2019-08-20 14:44:48,2019-08-20 14:44:49,1.582s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/BlankpaymentValidation,,,,2019-08-20 14:44:48,2019-08-20 14:44:49,1.053s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:44:49,2019-08-20 14:44:49,0.006s,PASSED

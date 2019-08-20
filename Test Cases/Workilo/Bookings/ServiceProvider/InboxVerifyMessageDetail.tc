@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InboxVerifyMessageDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7057b8ec-0177-405f-9a80-7674ff4a2cec</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>99f47c57-9b5a-442b-aaa4-da1a221e2f04</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>8ea91378-0fb4-4ded-8423-1d0f940e421b</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

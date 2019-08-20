@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RejectOrderByServiceProvider,,,,2019-08-20 14:45:02,2019-08-20 14:45:07,5.036s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode,,,,2019-08-20 14:45:03,2019-08-20 14:45:04,1.084s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:04,2019-08-20 14:45:04,0.007s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order,,,,2019-08-20 14:45:04,2019-08-20 14:45:04,0.809s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:04,2019-08-20 14:45:04,0.004s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/InboxRejectOrder,,,,2019-08-20 14:45:04,2019-08-20 14:45:05,0.597s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:05,2019-08-20 14:45:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/InboxVerifyMessageDetail,,,,2019-08-20 14:45:05,2019-08-20 14:45:06,0.486s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:06,2019-08-20 14:45:06,0.003s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/Order Declined,,,,2019-08-20 14:45:06,2019-08-20 14:45:06,0.610s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:06,2019-08-20 14:45:06,0.002s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/Customer Decline Order,,,,2019-08-20 14:45:06,2019-08-20 14:45:07,0.443s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:07,2019-08-20 14:45:07,0.001s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/CustomerInbox,,,,2019-08-20 14:45:07,2019-08-20 14:45:07,0.335s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:45:07,2019-08-20 14:45:07,0.002s,PASSED

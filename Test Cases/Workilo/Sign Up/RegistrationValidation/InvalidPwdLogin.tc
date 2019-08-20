@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidPwdLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42bf5f15-6aef-4bc6-a333-10213a971a66</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>76fe9314-64f2-4602-8a4a-692ab7106faf</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>18c841b2-4abf-4e11-a557-97e57ff4f296</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

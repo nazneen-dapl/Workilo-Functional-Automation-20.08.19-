@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bookings,,,,2019-08-20 01:20:33,2019-08-20 01:25:39,5m - 5.863s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode,,,,2019-08-20 01:20:33,2019-08-20 01:23:15,2m - 41.994s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 01:20:35,2019-08-20 01:20:35,0.012s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 01:20:35,2019-08-20 01:20:39,3.874s,PASSED
+window().maximize(),,,,2019-08-20 01:20:39,2019-08-20 01:20:40,1.185s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 01:20:40,2019-08-20 01:21:35,55.251s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 01:21:35,2019-08-20 01:21:35,0.039s,PASSED
+try,,,,2019-08-20 01:21:35,2019-08-20 01:23:15,1m - 40.293s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order,,,,2019-08-20 01:23:15,2019-08-20 01:24:21,1m - 5.615s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 01:23:16,2019-08-20 01:23:16,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 01:23:16,2019-08-20 01:23:18,2.296s,PASSED
+window().maximize(),,,,2019-08-20 01:23:18,2019-08-20 01:23:19,1.162s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 01:23:19,2019-08-20 01:24:00,40.982s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 01:24:00,2019-08-20 01:24:00,0.010s,PASSED
+try,,,,2019-08-20 01:24:00,2019-08-20 01:24:21,20.572s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/InboxAcceptOrder,,,,2019-08-20 01:24:21,2019-08-20 01:25:39,1m - 17.622s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 01:24:22,2019-08-20 01:24:22,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 01:24:22,2019-08-20 01:24:24,2.272s,PASSED
+window().maximize(),,,,2019-08-20 01:24:24,2019-08-20 01:24:25,1.187s,PASSED
+try,,,,2019-08-20 01:24:25,2019-08-20 01:25:39,1m - 13.733s,PASSED

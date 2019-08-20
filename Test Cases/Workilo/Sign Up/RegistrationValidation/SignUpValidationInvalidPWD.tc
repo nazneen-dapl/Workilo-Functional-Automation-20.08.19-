@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpValidationInvalidPWD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8eee860-4100-4f2a-a303-53ddab2d0284</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>af3f8fb9-c963-4648-abbe-dd8093fa304b</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>7211ecc1-86a0-45c2-b87b-a399d3800e06</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

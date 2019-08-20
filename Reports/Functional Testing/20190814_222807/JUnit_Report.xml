@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Functional Testing" time="62" tests="1" failures="0" errors="0">
+    <testsuite name="Functional Testing" tests="1" failures="0" errors="0" time="62" timestamp="2019-08-14 22:28:11" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Functional Testing">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Functional Testing\\20190814_222807"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Functional Testing\\20190814_222807\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.43.246"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode" classname="Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode" status="PASSED">
+            <system-out>2019-08-14 22:28:12 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode: Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode&#xD;
+&#xD;
+2019-08-14 22:28:13 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-14 22:28:13 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-14 22:28:16 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-14 22:28:18 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-14 22:28:32 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-14 22:28:32 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-14 22:28:32 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-14 22:28:33 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:28:35 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("nabin@digitalaptech.com"): null&#xD;
+&#xD;
+2019-08-14 22:28:35 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-14 22:28:35 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-14 22:28:35 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-14 22:28:38 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-14 22:28:38 - [TEST_STEP][PASSED] - id("search-input-desk")).sendKeys("Home Appliances"): null&#xD;
+&#xD;
+2019-08-14 22:28:41 - [TEST_STEP][PASSED] - xpath("//*[@id='select_list']/button")).click(): null&#xD;
+&#xD;
+2019-08-14 22:28:45 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-14 22:28:45 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:28:47 - [TEST_STEP][PASSED] - xpath("//*[@id='demo']/div/div/div[1]")).click(): null&#xD;
+&#xD;
+2019-08-14 22:28:51 - [TEST_STEP][PASSED] - element2 = driver.findElement(By.xpath(".//*[text()='book now']")): null&#xD;
+&#xD;
+2019-08-14 22:28:51 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-14 22:28:51 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:28:53 - [TEST_STEP][PASSED] - element2.click(): null&#xD;
+&#xD;
+2019-08-14 22:28:54 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-14 22:28:57 - [TEST_STEP][PASSED] - id("step1")).click(): null&#xD;
+&#xD;
+2019-08-14 22:28:57 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-14 22:29:00 - [TEST_STEP][PASSED] - id("billing_address1")).sendKeys("446 Plymouth St. Brooklyn"): null&#xD;
+&#xD;
+2019-08-14 22:29:00 - [TEST_STEP][PASSED] - id("billing_city")).click(): null&#xD;
+&#xD;
+2019-08-14 22:29:00 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:29:02 - [TEST_STEP][PASSED] - element3 = driver.findElement(By.xpath("//*[@id='tab-2']/div[2]/a[1]")): null&#xD;
+&#xD;
+2019-08-14 22:29:02 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", element3): null&#xD;
+&#xD;
+2019-08-14 22:29:02 - [TEST_STEP][PASSED] - element3.click(): null&#xD;
+&#xD;
+2019-08-14 22:29:02 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:29:04 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-3']/div[2]/a[1]")).click(): null&#xD;
+&#xD;
+2019-08-14 22:29:05 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:29:07 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-4']/div[1]/div[1]/span")).click(): null&#xD;
+&#xD;
+2019-08-14 22:29:07 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-14 22:29:09 - [TEST_STEP][PASSED] - name("send")).click(): null&#xD;
+&#xD;
+2019-08-14 22:29:09 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-14 22:29:12 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-14 22:29:13 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((C:\Users\DAPL-Asset-70\Katalon Studio\WorkiloAutomation\Test Cases\Screenshots\ + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-14 22:29:13 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-14 22:29:13 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-14 22:29:13 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((C:\Users\DAPL-Asset-180\Desktop\project folder\Workilo\WorkiloAutomation(14.8.19)\screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-14 22:29:13 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-14 22:29:13 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-14 22:28:11 - [TEST_SUITE][INCOMPLETE] - Functional Testing: null</system-out>
+        <system-err>2019-08-14 22:28:11 - [TEST_SUITE][INCOMPLETE] - Functional Testing: null</system-err>
+    </testsuite>
+</testsuites>

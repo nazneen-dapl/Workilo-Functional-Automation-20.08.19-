@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manage Shop,,,,2019-08-20 14:43:28,2019-08-20 14:43:30,1.891s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopInfo,,,,2019-08-20 14:43:28,2019-08-20 14:43:29,0.929s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:43:29,2019-08-20 14:43:29,0.007s,PASSED
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopStats,,,,2019-08-20 14:43:29,2019-08-20 14:43:30,0.378s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:43:30,2019-08-20 14:43:30,0.003s,PASSED

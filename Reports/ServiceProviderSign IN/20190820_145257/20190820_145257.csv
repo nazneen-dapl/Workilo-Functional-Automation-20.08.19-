@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ServiceProviderSign IN,,,,2019-08-20 14:54:22,2019-08-20 14:55:09,46.046s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign IN/CustSignIn,,,,2019-08-20 14:54:23,2019-08-20 14:55:09,45.618s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:54:24,2019-08-20 14:54:24,0.008s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 14:54:24,2019-08-20 14:54:27,3.376s,PASSED
+window().maximize(),,,,2019-08-20 14:54:27,2019-08-20 14:54:28,1.181s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 14:54:28,2019-08-20 14:54:44,15.166s,PASSED
+try,,,,2019-08-20 14:54:44,2019-08-20 14:55:09,24.917s,PASSED

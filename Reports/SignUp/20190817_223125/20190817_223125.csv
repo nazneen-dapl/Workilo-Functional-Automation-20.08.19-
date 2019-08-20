@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SignUp,,,,2019-08-17 22:31:31,2019-08-17 22:31:58,27.893s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin,,,,2019-08-17 22:31:31,2019-08-17 22:31:58,27.184s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-17 22:31:33,2019-08-17 22:31:33,0.007s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-17 22:31:33,2019-08-17 22:31:37,4.143s,PASSED
+window().maximize(),,,,2019-08-17 22:31:37,2019-08-17 22:31:38,1.180s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-17 22:31:38,2019-08-17 22:31:51,13.124s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-17 22:31:51,2019-08-17 22:31:51,0.028s,PASSED
+try,,,,2019-08-17 22:31:51,2019-08-17 22:31:58,7.262s,PASSED

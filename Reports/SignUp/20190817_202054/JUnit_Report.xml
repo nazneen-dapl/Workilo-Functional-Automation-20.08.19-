@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="SignUp" time="35" tests="1" failures="0" errors="0">
+    <testsuite name="SignUp" tests="1" failures="0" errors="0" time="35" timestamp="2019-08-17 20:20:58" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/SignUp">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\SignUp\\20190817_202054"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\SignUp\\20190817_202054\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.43.246"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidFirstLastName" classname="Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidFirstLastName" status="PASSED">
+            <system-out>2019-08-17 20:20:59 - [TEST_CASE][PASSED] - Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidFirstLastName: Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidFirstLastName&#xD;
+&#xD;
+2019-08-17 20:21:00 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-17 20:21:00 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-17 20:21:04 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-17 20:21:05 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-17 20:21:20 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-17 20:21:20 - [TEST_STEP][PASSED] - linkText("Sign Up")).click(): null&#xD;
+&#xD;
+2019-08-17 20:21:20 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-17 20:21:22 - [TEST_STEP][PASSED] - xpath("//*[text()='Client']")).click(): null&#xD;
+&#xD;
+2019-08-17 20:21:23 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - id("email")).sendKeys("shahbaz.dapl@gmail.com"): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - id("firstName")).sendKeys("12@12#."): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - id("lastName")).sendKeys("12345"): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - id("password")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - id("contact_number")).sendKeys("8520136974"): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - //*[@value='Join Workilo!']")).click(): null&#xD;
+&#xD;
+2019-08-17 20:21:25 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-17 20:21:27 - [TEST_STEP][PASSED] - errorMessage = driver.findElement(By.id("fname_error")): null&#xD;
+&#xD;
+2019-08-17 20:21:27 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-17 20:21:27 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", errorMessage): null&#xD;
+&#xD;
+2019-08-17 20:21:28 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.id("lname_error"))): null&#xD;
+&#xD;
+2019-08-17 20:21:28 - [TEST_STEP][PASSED] - Thread.sleep(5000): null&#xD;
+&#xD;
+2019-08-17 20:21:33 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-17 20:20:58 - [TEST_SUITE][INCOMPLETE] - SignUp: null</system-out>
+        <system-err>2019-08-17 20:20:58 - [TEST_SUITE][INCOMPLETE] - SignUp: null</system-err>
+    </testsuite>
+</testsuites>

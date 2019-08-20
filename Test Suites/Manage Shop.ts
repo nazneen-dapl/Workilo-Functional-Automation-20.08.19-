@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Manage Shop</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ea166ae9-49c0-42c7-b930-50fb73b7ae27</testSuiteGuid>
+   <testCaseLink>
+      <guid>4c46ae59-2c6f-49c5-bcaf-d479362a7599</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/ManageShop/ShopInfo</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a148645f-3b6e-49f7-b107-4e43441b21a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a369080-f21d-4bab-b2d3-f1d71d705f17</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>da427f87-1d57-4c7f-85d0-98b1662c7557</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/ManageShop/ShopStats</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5b31402f-374d-461a-a361-656c5aa8b8e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7da4d06-093a-4197-a1b3-076fd1541f74</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

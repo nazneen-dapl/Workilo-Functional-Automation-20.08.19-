@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CustomerSign IN,,,,2019-08-20 15:57:42,2019-08-20 15:59:21,1m - 38.809s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign IN/CustSignIn,,,,2019-08-20 15:57:43,2019-08-20 15:58:27,44.601s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 15:57:44,2019-08-20 15:57:44,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 15:57:44,2019-08-20 15:57:47,3.863s,PASSED
+window().maximize(),,,,2019-08-20 15:57:47,2019-08-20 15:57:49,1.171s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 15:57:49,2019-08-20 15:58:04,14.919s,PASSED
+try,,,,2019-08-20 15:58:04,2019-08-20 15:58:27,23.772s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign IN/ServProvSignIn,,,,2019-08-20 15:58:27,2019-08-20 15:59:21,53.662s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 15:58:28,2019-08-20 15:58:28,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 15:58:28,2019-08-20 15:58:30,2.188s,PASSED
+window().maximize(),,,,2019-08-20 15:58:30,2019-08-20 15:58:31,1.150s,PASSED
+try,,,,2019-08-20 15:58:31,2019-08-20 15:59:20,48.567s,PASSED
+catch (Exception e),,,,2019-08-20 15:59:20,2019-08-20 15:59:21,1.444s,PASSED

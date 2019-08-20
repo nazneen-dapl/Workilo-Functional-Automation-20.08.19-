@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidEmailIdLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dd82651-342d-4a1a-a3e7-d871287e8fa2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>d28d4edc-70c4-4d5f-bbe1-64ef7054adac</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>33dba286-4443-4124-b97a-92d5c3ed721f</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

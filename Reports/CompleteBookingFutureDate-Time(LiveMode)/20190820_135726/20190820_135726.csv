@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CompleteBookingFutureDate-Time(LiveMode),,,,2019-08-20 13:57:29,2019-08-20 14:00:36,3m - 6.574s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode,,,,2019-08-20 13:57:30,2019-08-20 13:58:41,1m - 10.633s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 13:57:32,2019-08-20 13:57:32,0.018s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 13:57:32,2019-08-20 13:57:35,3.760s,PASSED
+window().maximize(),,,,2019-08-20 13:57:35,2019-08-20 13:57:37,1.209s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 13:57:37,2019-08-20 13:57:49,12.547s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 13:57:49,2019-08-20 13:57:49,0.040s,PASSED
+try,,,,2019-08-20 13:57:49,2019-08-20 13:58:40,51.014s,PASSED
+catch (Exception e),,,,2019-08-20 13:58:40,2019-08-20 13:58:41,0.570s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order,,,,2019-08-20 13:58:41,2019-08-20 13:59:34,52.990s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 13:58:42,2019-08-20 13:58:42,0.012s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 13:58:42,2019-08-20 13:58:44,2.371s,PASSED
+window().maximize(),,,,2019-08-20 13:58:44,2019-08-20 13:58:45,1.128s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 13:58:45,2019-08-20 13:59:03,17.272s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 13:59:03,2019-08-20 13:59:03,0.009s,PASSED
+try,,,,2019-08-20 13:59:03,2019-08-20 13:59:34,31.158s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/InboxAcceptOrder,,,,2019-08-20 13:59:34,2019-08-20 14:00:36,1m - 2.279s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 13:59:34,2019-08-20 13:59:34,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 13:59:34,2019-08-20 13:59:37,2.347s,PASSED
+window().maximize(),,,,2019-08-20 13:59:37,2019-08-20 13:59:38,1.151s,PASSED
+try,,,,2019-08-20 13:59:38,2019-08-20 14:00:36,58.348s,PASSED

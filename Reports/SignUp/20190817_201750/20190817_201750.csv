@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SignUp,,,,2019-08-17 20:17:54,2019-08-17 20:18:22,28.250s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpBlankValidation,,,,2019-08-17 20:17:55,2019-08-17 20:18:22,27.721s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-17 20:17:55,2019-08-17 20:17:55,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-17 20:17:55,2019-08-17 20:17:59,4.059s,PASSED
+window().maximize(),,,,2019-08-17 20:17:59,2019-08-17 20:18:01,1.229s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-17 20:18:01,2019-08-17 20:18:13,12.173s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-17 20:18:13,2019-08-17 20:18:13,0.025s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-17 20:18:13,2019-08-17 20:18:13,0.204s,PASSED
+Thread.sleep(2000),,,,2019-08-17 20:18:13,2019-08-17 20:18:15,2.015s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-17 20:18:15,2019-08-17 20:18:15,0.114s,PASSED
+Thread.sleep(1000),,,,2019-08-17 20:18:15,2019-08-17 20:18:16,1.002s,PASSED
+js = driver,,,,2019-08-17 20:18:16,2019-08-17 20:18:16,0.032s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-17 20:18:16,2019-08-17 20:18:16,0.150s,PASSED
+"email = driver.findElement(By.xpath(""//*[@id='signup-form']/div[1]/label[2]""))",,,,2019-08-17 20:18:16,2019-08-17 20:18:16,0.042s,PASSED
+"firstname = driver.findElement(By.xpath(""//*[@id='signup-form']/div[2]/div[1]/label[2]""))",,,,2019-08-17 20:18:16,2019-08-17 20:18:16,0.035s,PASSED
+"lastname = driver.findElement(By.xpath(""//*[@id='signup-form']/div[2]/div[2]/label[2]""))",,,,2019-08-17 20:18:16,2019-08-17 20:18:16,0.029s,PASSED
+"pwd = driver.findElement(By.xpath(""//*[@id='signup-form']/div[3]/label[2]""))",,,,2019-08-17 20:18:16,2019-08-17 20:18:16,0.041s,PASSED
+"contact = driver.findElement(By.xpath(""//*[@id='signup-form']/div[4]/label[2]""))",,,,2019-08-17 20:18:16,2019-08-17 20:18:17,0.033s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", email)",,,,2019-08-17 20:18:17,2019-08-17 20:18:17,0.022s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", firstname)",,,,2019-08-17 20:18:17,2019-08-17 20:18:17,0.015s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", lastname)",,,,2019-08-17 20:18:17,2019-08-17 20:18:17,0.016s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", pwd)",,,,2019-08-17 20:18:17,2019-08-17 20:18:17,0.017s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", contact)",,,,2019-08-17 20:18:17,2019-08-17 20:18:17,0.026s,PASSED
+Thread.sleep(5000),,,,2019-08-17 20:18:17,2019-08-17 20:18:22,5.001s,PASSED
+driver.quit(),,,,2019-08-17 20:18:22,2019-08-17 20:18:22,0.734s,PASSED

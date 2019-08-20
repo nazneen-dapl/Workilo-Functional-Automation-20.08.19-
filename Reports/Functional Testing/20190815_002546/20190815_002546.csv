@@ -1,0 +1,366 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Testing,,,,2019-08-15 00:25:52,2019-08-15 00:40:53,15m - 1.365s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/CustSignUp,,,,2019-08-15 00:25:52,2019-08-15 00:26:19,26.744s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:25:53,2019-08-15 00:25:53,0.031s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:25:53,2019-08-15 00:25:58,4.370s,PASSED
+window().maximize(),,,,2019-08-15 00:25:58,2019-08-15 00:25:59,1.193s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:25:59,2019-08-15 00:26:08,9.171s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:26:08,2019-08-15 00:26:08,0.027s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:26:08,2019-08-15 00:26:08,0.297s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:08,2019-08-15 00:26:10,2.014s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-15 00:26:10,2019-08-15 00:26:11,0.118s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:11,2019-08-15 00:26:13,2.003s,PASSED
+"id(""email"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-08-15 00:26:13,2019-08-15 00:26:13,0.228s,PASSED
+"id(""firstName"")).sendKeys(""Shahbaz"")",,,,2019-08-15 00:26:13,2019-08-15 00:26:13,0.132s,PASSED
+"id(""lastName"")).sendKeys(""Farooque"")",,,,2019-08-15 00:26:13,2019-08-15 00:26:13,0.137s,PASSED
+"id(""password"")).sendKeys(""admin#123"")",,,,2019-08-15 00:26:13,2019-08-15 00:26:13,0.122s,PASSED
+"id(""contact_number"")).sendKeys(""9663326168"")",,,,2019-08-15 00:26:13,2019-08-15 00:26:13,0.142s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:26:13,2019-08-15 00:26:13,0.152s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:26:13,2019-08-15 00:26:18,5.005s,PASSED
+driver.quit(),,,,2019-08-15 00:26:18,2019-08-15 00:26:19,0.721s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/ServProvSignUp,,,,2019-08-15 00:26:19,2019-08-15 00:26:43,23.602s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:26:20,2019-08-15 00:26:20,0.004s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:26:20,2019-08-15 00:26:22,2.264s,PASSED
+window().maximize(),,,,2019-08-15 00:26:22,2019-08-15 00:26:23,1.156s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:26:23,2019-08-15 00:26:32,8.681s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:26:32,2019-08-15 00:26:32,0.006s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:26:32,2019-08-15 00:26:32,0.174s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:32,2019-08-15 00:26:34,2.002s,PASSED
+"xpath(""//a[@class='account_type_switch service_provider_tag active']"")).click()",,,,2019-08-15 00:26:34,2019-08-15 00:26:34,0.115s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:34,2019-08-15 00:26:36,2.001s,PASSED
+"id(""email"")).sendKeys(""test1@gmail.com"")",,,,2019-08-15 00:26:36,2019-08-15 00:26:36,0.256s,PASSED
+"id(""firstName"")).sendKeys(""Workilo"")",,,,2019-08-15 00:26:36,2019-08-15 00:26:36,0.155s,PASSED
+"id(""lastName"")).sendKeys(""Test"")",,,,2019-08-15 00:26:36,2019-08-15 00:26:36,0.124s,PASSED
+"id(""password"")).sendKeys(""admin#123"")",,,,2019-08-15 00:26:36,2019-08-15 00:26:37,0.143s,PASSED
+"id(""contact_number"")).sendKeys(""8521036974"")",,,,2019-08-15 00:26:37,2019-08-15 00:26:37,0.160s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:26:37,2019-08-15 00:26:37,0.174s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:26:37,2019-08-15 00:26:42,5.001s,PASSED
+driver.quit(),,,,2019-08-15 00:26:42,2019-08-15 00:26:43,0.841s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin,,,,2019-08-15 00:26:43,2019-08-15 00:27:02,18.889s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:26:43,2019-08-15 00:26:43,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:26:43,2019-08-15 00:26:45,2.213s,PASSED
+window().maximize(),,,,2019-08-15 00:26:45,2019-08-15 00:26:46,1.143s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:26:46,2019-08-15 00:26:54,7.740s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:26:54,2019-08-15 00:26:54,0.012s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:26:54,2019-08-15 00:26:54,0.131s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:54,2019-08-15 00:26:56,2.002s,PASSED
+"id(""email_login"")).sendKeys(""shahbaz.dapl123.com"")",,,,2019-08-15 00:26:56,2019-08-15 00:26:57,0.181s,PASSED
+"id(""password_login"")).sendKeys(""admin#123"")",,,,2019-08-15 00:26:57,2019-08-15 00:26:57,0.169s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:26:57,2019-08-15 00:26:57,0.139s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:57,2019-08-15 00:26:59,2.000s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2019-08-15 00:26:59,2019-08-15 00:26:59,0.042s,PASSED
+build().perform(),,,,2019-08-15 00:26:59,2019-08-15 00:26:59,0.090s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:26:59,2019-08-15 00:27:01,2.001s,PASSED
+driver.quit(),,,,2019-08-15 00:27:01,2019-08-15 00:27:02,0.746s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidPwdLogin,,,,2019-08-15 00:27:02,2019-08-15 00:27:22,20.025s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:27:02,2019-08-15 00:27:02,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:27:02,2019-08-15 00:27:04,2.185s,PASSED
+window().maximize(),,,,2019-08-15 00:27:04,2019-08-15 00:27:05,1.146s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:27:05,2019-08-15 00:27:13,7.933s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:27:13,2019-08-15 00:27:13,0.012s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:27:13,2019-08-15 00:27:13,0.134s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:27:13,2019-08-15 00:27:15,2.001s,PASSED
+"id(""email_login"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-08-15 00:27:15,2019-08-15 00:27:16,0.204s,PASSED
+"id(""password_login"")).sendKeys(""123"")",,,,2019-08-15 00:27:16,2019-08-15 00:27:16,0.134s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:27:16,2019-08-15 00:27:16,0.129s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:27:16,2019-08-15 00:27:18,2.002s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2019-08-15 00:27:18,2019-08-15 00:27:18,0.003s,PASSED
+build().perform(),,,,2019-08-15 00:27:18,2019-08-15 00:27:18,0.027s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:27:18,2019-08-15 00:27:21,3.001s,PASSED
+driver.quit(),,,,2019-08-15 00:27:21,2019-08-15 00:27:22,0.759s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpBlankValidation,,,,2019-08-15 00:27:22,2019-08-15 00:27:44,22.120s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:27:22,2019-08-15 00:27:22,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:27:22,2019-08-15 00:27:24,2.359s,PASSED
+window().maximize(),,,,2019-08-15 00:27:24,2019-08-15 00:27:26,1.168s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:27:26,2019-08-15 00:27:34,8.948s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:27:34,2019-08-15 00:27:34,0.006s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:27:34,2019-08-15 00:27:35,0.155s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:27:35,2019-08-15 00:27:37,2.002s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-15 00:27:37,2019-08-15 00:27:37,0.113s,PASSED
+Thread.sleep(1000),,,,2019-08-15 00:27:37,2019-08-15 00:27:38,1.002s,PASSED
+js = driver,,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.004s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.132s,PASSED
+"email = driver.findElement(By.xpath(""//*[@id='signup-form']/div[1]/label[2]""))",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.032s,PASSED
+"firstname = driver.findElement(By.xpath(""//*[@id='signup-form']/div[2]/div[1]/label[2]""))",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.029s,PASSED
+"lastname = driver.findElement(By.xpath(""//*[@id='signup-form']/div[2]/div[2]/label[2]""))",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.033s,PASSED
+"pwd = driver.findElement(By.xpath(""//*[@id='signup-form']/div[3]/label[2]""))",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.032s,PASSED
+"contact = driver.findElement(By.xpath(""//*[@id='signup-form']/div[4]/label[2]""))",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.033s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", email)",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.019s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", firstname)",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.016s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", lastname)",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.015s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", pwd)",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.016s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", contact)",,,,2019-08-15 00:27:38,2019-08-15 00:27:38,0.016s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:27:38,2019-08-15 00:27:43,5.003s,PASSED
+driver.quit(),,,,2019-08-15 00:27:43,2019-08-15 00:27:44,0.728s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidContact,,,,2019-08-15 00:27:44,2019-08-15 00:28:11,27.578s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:27:44,2019-08-15 00:27:44,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:27:44,2019-08-15 00:27:46,2.201s,PASSED
+window().maximize(),,,,2019-08-15 00:27:46,2019-08-15 00:27:47,1.144s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:27:47,2019-08-15 00:27:58,10.764s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:27:58,2019-08-15 00:27:58,0.006s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:27:58,2019-08-15 00:27:58,0.161s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:27:58,2019-08-15 00:28:00,2.004s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-15 00:28:00,2019-08-15 00:28:01,0.088s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:01,2019-08-15 00:28:03,2.001s,PASSED
+"id(""email"")).sendKeys(""shahbaz.dapl1@gmail.com"")",,,,2019-08-15 00:28:03,2019-08-15 00:28:03,0.247s,PASSED
+"id(""firstName"")).sendKeys(""Shahbaz"")",,,,2019-08-15 00:28:03,2019-08-15 00:28:03,0.160s,PASSED
+"id(""lastName"")).sendKeys(""Farooque"")",,,,2019-08-15 00:28:03,2019-08-15 00:28:03,0.131s,PASSED
+"id(""password"")).sendKeys(""admin#123"")",,,,2019-08-15 00:28:03,2019-08-15 00:28:03,0.133s,PASSED
+"id(""contact_number"")).sendKeys(""abcdefghij"")",,,,2019-08-15 00:28:03,2019-08-15 00:28:03,0.161s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:28:03,2019-08-15 00:28:03,0.114s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:03,2019-08-15 00:28:05,2.000s,PASSED
+"errorMessage = driver.findElement(By.id(""contact_error""))",,,,2019-08-15 00:28:05,2019-08-15 00:28:06,0.038s,PASSED
+js = driver,,,,2019-08-15 00:28:06,2019-08-15 00:28:06,0.002s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", errorMessage)",,,,2019-08-15 00:28:06,2019-08-15 00:28:06,0.020s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:28:06,2019-08-15 00:28:11,5.003s,PASSED
+driver.quit(),,,,2019-08-15 00:28:11,2019-08-15 00:28:11,0.935s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidEmail,,,,2019-08-15 00:28:11,2019-08-15 00:28:37,25.492s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:28:12,2019-08-15 00:28:12,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:28:12,2019-08-15 00:28:14,2.211s,PASSED
+window().maximize(),,,,2019-08-15 00:28:14,2019-08-15 00:28:15,1.154s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:28:15,2019-08-15 00:28:24,8.971s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:28:24,2019-08-15 00:28:24,0.009s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:28:24,2019-08-15 00:28:24,0.243s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:24,2019-08-15 00:28:26,2.001s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-15 00:28:26,2019-08-15 00:28:26,0.093s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:26,2019-08-15 00:28:28,2.002s,PASSED
+"id(""email"")).sendKeys(""shahbaz.dapl123gmail.com"")",,,,2019-08-15 00:28:28,2019-08-15 00:28:29,0.225s,PASSED
+"id(""firstName"")).sendKeys(""Shahbaz"")",,,,2019-08-15 00:28:29,2019-08-15 00:28:29,0.122s,PASSED
+"id(""lastName"")).sendKeys(""Farooque"")",,,,2019-08-15 00:28:29,2019-08-15 00:28:29,0.133s,PASSED
+"id(""password"")).sendKeys(""admin#123"")",,,,2019-08-15 00:28:29,2019-08-15 00:28:29,0.132s,PASSED
+"id(""contact_number"")).sendKeys(""9663326168"")",,,,2019-08-15 00:28:29,2019-08-15 00:28:29,0.139s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:28:29,2019-08-15 00:28:29,0.117s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:29,2019-08-15 00:28:31,2.000s,PASSED
+"errorMessage = driver.findElement(By.xpath(""//*[@id='signup-form']/div[1]/label[2]""))",,,,2019-08-15 00:28:31,2019-08-15 00:28:31,0.025s,PASSED
+js = driver,,,,2019-08-15 00:28:31,2019-08-15 00:28:31,0.001s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", errorMessage)",,,,2019-08-15 00:28:31,2019-08-15 00:28:31,0.042s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:28:31,2019-08-15 00:28:36,5.002s,PASSED
+driver.quit(),,,,2019-08-15 00:28:36,2019-08-15 00:28:37,0.655s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidFirstLastName,,,,2019-08-15 00:28:37,2019-08-15 00:29:05,28.392s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:28:37,2019-08-15 00:28:37,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:28:37,2019-08-15 00:28:39,2.159s,PASSED
+window().maximize(),,,,2019-08-15 00:28:39,2019-08-15 00:28:41,1.146s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:28:41,2019-08-15 00:28:52,11.831s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:28:52,2019-08-15 00:28:52,0.006s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:28:52,2019-08-15 00:28:53,0.131s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:53,2019-08-15 00:28:55,2.000s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-15 00:28:55,2019-08-15 00:28:55,0.089s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:55,2019-08-15 00:28:57,2.001s,PASSED
+"id(""email"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-08-15 00:28:57,2019-08-15 00:28:57,0.212s,PASSED
+"id(""firstName"")).sendKeys(""12@12#."")",,,,2019-08-15 00:28:57,2019-08-15 00:28:57,0.135s,PASSED
+"id(""lastName"")).sendKeys(""12345"")",,,,2019-08-15 00:28:57,2019-08-15 00:28:57,0.114s,PASSED
+"id(""password"")).sendKeys(""admin#123"")",,,,2019-08-15 00:28:57,2019-08-15 00:28:57,0.133s,PASSED
+"id(""contact_number"")).sendKeys(""8520136974"")",,,,2019-08-15 00:28:57,2019-08-15 00:28:57,0.132s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:28:57,2019-08-15 00:28:58,0.109s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:28:58,2019-08-15 00:29:00,2.002s,PASSED
+"errorMessage = driver.findElement(By.id(""fname_error""))",,,,2019-08-15 00:29:00,2019-08-15 00:29:00,0.030s,PASSED
+js = driver,,,,2019-08-15 00:29:00,2019-08-15 00:29:00,0.001s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", errorMessage)",,,,2019-08-15 00:29:00,2019-08-15 00:29:00,0.013s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", driver.findElement(By.id(""lname_error"")))",,,,2019-08-15 00:29:00,2019-08-15 00:29:00,0.075s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:29:00,2019-08-15 00:29:05,5.001s,PASSED
+driver.quit(),,,,2019-08-15 00:29:05,2019-08-15 00:29:05,0.726s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/SignUpValidationInvalidPWD,,,,2019-08-15 00:29:05,2019-08-15 00:29:34,28.349s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:29:06,2019-08-15 00:29:06,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:29:06,2019-08-15 00:29:08,2.153s,PASSED
+window().maximize(),,,,2019-08-15 00:29:08,2019-08-15 00:29:09,1.149s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:29:09,2019-08-15 00:29:21,11.831s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:29:21,2019-08-15 00:29:21,0.006s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-15 00:29:21,2019-08-15 00:29:21,0.159s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:29:21,2019-08-15 00:29:23,2.001s,PASSED
+"xpath(""//*[text()='Client']"")).click()",,,,2019-08-15 00:29:23,2019-08-15 00:29:23,0.098s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:29:23,2019-08-15 00:29:25,2.002s,PASSED
+"id(""email"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-08-15 00:29:25,2019-08-15 00:29:25,0.202s,PASSED
+"id(""firstName"")).sendKeys(""Shahbaz"")",,,,2019-08-15 00:29:25,2019-08-15 00:29:25,0.120s,PASSED
+"id(""lastName"")).sendKeys(""Farooque"")",,,,2019-08-15 00:29:25,2019-08-15 00:29:26,0.120s,PASSED
+"id(""password"")).sendKeys(""12345687"")",,,,2019-08-15 00:29:26,2019-08-15 00:29:26,0.125s,PASSED
+"id(""contact_number"")).sendKeys(""9663326168"")",,,,2019-08-15 00:29:26,2019-08-15 00:29:26,0.184s,PASSED
+"//*[@value='Join Workilo!']"")).click()",,,,2019-08-15 00:29:26,2019-08-15 00:29:26,0.143s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:29:26,2019-08-15 00:29:28,2.000s,PASSED
+"errorMessage = driver.findElement(By.xpath(""//*[@id='signup-form']/div[3]/label[2]""))",,,,2019-08-15 00:29:28,2019-08-15 00:29:28,0.040s,PASSED
+js = driver,,,,2019-08-15 00:29:28,2019-08-15 00:29:28,0.001s,PASSED
+"js.executeScript(""arguments[0].style.border='3px solid red'"", errorMessage)",,,,2019-08-15 00:29:28,2019-08-15 00:29:28,0.014s,PASSED
+Thread.sleep(5000),,,,2019-08-15 00:29:28,2019-08-15 00:29:33,5.002s,PASSED
+driver.quit(),,,,2019-08-15 00:29:33,2019-08-15 00:29:34,0.710s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign IN/CustSignIn,,,,2019-08-15 00:29:34,2019-08-15 00:30:03,29.111s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:29:34,2019-08-15 00:29:34,0.000s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:29:34,2019-08-15 00:29:36,2.254s,PASSED
+window().maximize(),,,,2019-08-15 00:29:36,2019-08-15 00:29:37,1.143s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:29:37,2019-08-15 00:29:48,10.478s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:29:48,2019-08-15 00:29:48,0.006s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:29:48,2019-08-15 00:29:48,0.145s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:29:48,2019-08-15 00:29:50,2.000s,PASSED
+"id(""email_login"")).sendKeys(""nabin@digitalaptech.com"")",,,,2019-08-15 00:29:50,2019-08-15 00:29:50,0.220s,PASSED
+"id(""password_login"")).sendKeys(""admin#123"")",,,,2019-08-15 00:29:50,2019-08-15 00:29:50,0.121s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:29:50,2019-08-15 00:29:50,0.122s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:29:50,2019-08-15 00:29:53,3.001s,PASSED
+"linkText(""Log Out"")).click()",,,,2019-08-15 00:29:53,2019-08-15 00:29:58,4.694s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:29:58,2019-08-15 00:30:00,2.001s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2019-08-15 00:30:00,2019-08-15 00:30:00,0.002s,PASSED
+build().perform(),,,,2019-08-15 00:30:00,2019-08-15 00:30:00,0.030s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:30:00,2019-08-15 00:30:02,2.001s,PASSED
+driver.quit(),,,,2019-08-15 00:30:02,2019-08-15 00:30:03,0.705s,PASSED
+,,,,,,,
+Test Cases/Workilo/Sign IN/ServProvSignIn,,,,2019-08-15 00:30:03,2019-08-15 00:30:53,49.731s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:30:03,2019-08-15 00:30:03,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:30:03,2019-08-15 00:30:05,2.432s,PASSED
+window().maximize(),,,,2019-08-15 00:30:05,2019-08-15 00:30:07,1.142s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:30:07,2019-08-15 00:30:17,10.187s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:30:17,2019-08-15 00:30:17,0.006s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:30:17,2019-08-15 00:30:17,0.132s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:30:17,2019-08-15 00:30:19,2.002s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:30:19,2019-08-15 00:30:19,0.206s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:30:19,2019-08-15 00:30:19,0.129s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:30:19,2019-08-15 00:30:19,0.127s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:30:19,2019-08-15 00:30:22,3.000s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:30:22,2019-08-15 00:30:53,30.135s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/CustomerALL,,,,2019-08-15 00:30:53,2019-08-15 00:33:07,2m - 14.525s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:30:53,2019-08-15 00:30:53,0.008s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:30:53,2019-08-15 00:30:55,2.197s,PASSED
+window().maximize(),,,,2019-08-15 00:30:55,2019-08-15 00:30:56,1.158s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:30:56,2019-08-15 00:31:05,8.561s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:31:05,2019-08-15 00:31:05,0.004s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:31:05,2019-08-15 00:31:05,0.139s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:31:05,2019-08-15 00:31:07,2.001s,PASSED
+"id(""email_login"")).sendKeys(""nabin@digitalaptech.com"")",,,,2019-08-15 00:31:07,2019-08-15 00:31:07,0.198s,PASSED
+"id(""password_login"")).sendKeys(""admin#123"")",,,,2019-08-15 00:31:07,2019-08-15 00:31:07,0.155s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:31:07,2019-08-15 00:31:08,0.122s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:31:08,2019-08-15 00:31:11,3.002s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:31:11,2019-08-15 00:31:11,0.131s,PASSED
+Thread.sleep(1000),,,,2019-08-15 00:31:11,2019-08-15 00:31:12,1.002s,PASSED
+"xpath(""/html/body/div[4]/div/div[1]/ul/li[2]/a"")).click()",,,,2019-08-15 00:31:12,2019-08-15 00:31:13,1.654s,PASSED
+Thread.sleep(1000),,,,2019-08-15 00:31:13,2019-08-15 00:31:14,1.000s,PASSED
+"xpath(""/html/body/div[6]/div/div/div[1]/div/div/ul/li[5]/a"")).click()",,,,2019-08-15 00:31:14,2019-08-15 00:31:15,0.157s,PASSED
+Thread.sleep(1000),,,,2019-08-15 00:31:15,2019-08-15 00:31:16,1.001s,PASSED
+"message = xpath(""/html/body/div[6]/div/div/div[1]/div/div/ul/li[5]/a"")).getText()",,,,2019-08-15 00:31:16,2019-08-15 00:31:16,0.048s,PASSED
+"if (message.contains(""(0)""))",,,,2019-08-15 00:31:16,2019-08-15 00:31:16,0.001s,PASSED
+else,,,,2019-08-15 00:31:16,2019-08-15 00:33:07,1m - 51.549s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode,,,,2019-08-15 00:33:07,2019-08-15 00:34:32,1m - 25.050s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:33:07,2019-08-15 00:33:07,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:33:07,2019-08-15 00:33:10,2.210s,PASSED
+window().maximize(),,,,2019-08-15 00:33:10,2019-08-15 00:33:11,1.140s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:33:11,2019-08-15 00:33:20,9.456s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:33:20,2019-08-15 00:33:20,0.003s,PASSED
+try,,,,2019-08-15 00:33:20,2019-08-15 00:34:31,1m - 10.576s,PASSED
+catch (Exception e),,,,2019-08-15 00:34:31,2019-08-15 00:34:32,1.293s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/ALLorder,,,,2019-08-15 00:34:32,2019-08-15 00:35:23,51.018s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:34:33,2019-08-15 00:34:33,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:34:33,2019-08-15 00:34:35,2.389s,PASSED
+window().maximize(),,,,2019-08-15 00:34:35,2019-08-15 00:34:36,1.142s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:34:36,2019-08-15 00:34:48,11.492s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:34:48,2019-08-15 00:34:48,0.005s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:34:48,2019-08-15 00:34:48,0.132s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:34:48,2019-08-15 00:34:50,2.001s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:34:50,2019-08-15 00:34:50,0.185s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:34:50,2019-08-15 00:34:50,0.123s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:34:50,2019-08-15 00:34:50,0.118s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:34:50,2019-08-15 00:34:53,3.001s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:34:53,2019-08-15 00:35:23,30.071s,PASSED
+,,,,,,,
+Test Cases/Workilo/HomePage/TitleVerification,,,,2019-08-15 00:35:23,2019-08-15 00:35:39,15.849s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:35:23,2019-08-15 00:35:23,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:35:23,2019-08-15 00:35:26,2.166s,PASSED
+window().maximize(),,,,2019-08-15 00:35:26,2019-08-15 00:35:27,1.138s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:35:27,2019-08-15 00:35:35,8.617s,PASSED
+actualTitle = driver.getTitle(),,,,2019-08-15 00:35:35,2019-08-15 00:35:35,0.015s,PASSED
+"expectedTitle = ""Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo""",,,,2019-08-15 00:35:35,2019-08-15 00:35:35,0.001s,PASSED
+"Assert.assertEquals(actualTitle, expectedTitle, ""Title didn't match."")",,,,2019-08-15 00:35:35,2019-08-15 00:35:35,0.002s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:35:35,2019-08-15 00:35:38,3.001s,PASSED
+driver.quit(),,,,2019-08-15 00:35:38,2019-08-15 00:35:39,0.725s,PASSED
+,,,,,,,
+Test Cases/Workilo/Listing/Add Listing/AddListing,,,,2019-08-15 00:35:39,2019-08-15 00:36:29,50.297s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:35:40,2019-08-15 00:35:40,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:35:40,2019-08-15 00:35:42,2.259s,PASSED
+window().maximize(),,,,2019-08-15 00:35:42,2019-08-15 00:35:43,1.159s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:35:43,2019-08-15 00:35:54,10.712s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:35:54,2019-08-15 00:35:54,0.004s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:35:54,2019-08-15 00:35:54,0.138s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:35:54,2019-08-15 00:35:56,2.002s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:35:56,2019-08-15 00:35:56,0.223s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:35:56,2019-08-15 00:35:56,0.146s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:35:56,2019-08-15 00:35:56,0.120s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:35:56,2019-08-15 00:35:59,3.000s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:35:59,2019-08-15 00:36:29,30.087s,PASSED
+,,,,,,,
+Test Cases/Workilo/Listing/Delete Listing/DeleteListing,,,,2019-08-15 00:36:29,2019-08-15 00:37:19,49.897s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:36:30,2019-08-15 00:36:30,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:36:30,2019-08-15 00:36:32,2.272s,PASSED
+window().maximize(),,,,2019-08-15 00:36:32,2019-08-15 00:36:33,1.150s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:36:33,2019-08-15 00:36:43,10.370s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:36:43,2019-08-15 00:36:43,0.007s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:36:43,2019-08-15 00:36:44,0.144s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:36:44,2019-08-15 00:36:46,2.001s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:36:46,2019-08-15 00:36:46,0.205s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:36:46,2019-08-15 00:36:46,0.159s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:36:46,2019-08-15 00:36:46,0.167s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:36:46,2019-08-15 00:36:49,3.001s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:36:49,2019-08-15 00:37:19,30.129s,PASSED
+,,,,,,,
+Test Cases/Workilo/Listing/Edit Listing/EditListing,,,,2019-08-15 00:37:19,2019-08-15 00:38:15,55.301s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:37:20,2019-08-15 00:37:20,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:37:20,2019-08-15 00:37:22,2.195s,PASSED
+window().maximize(),,,,2019-08-15 00:37:22,2019-08-15 00:37:23,1.138s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:37:23,2019-08-15 00:37:39,15.907s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:37:39,2019-08-15 00:37:39,0.004s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:37:39,2019-08-15 00:37:39,0.186s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:37:39,2019-08-15 00:37:41,2.001s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:37:41,2019-08-15 00:37:41,0.195s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:37:41,2019-08-15 00:37:41,0.182s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:37:41,2019-08-15 00:37:41,0.124s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:37:41,2019-08-15 00:37:44,3.001s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:37:44,2019-08-15 00:38:15,30.128s,PASSED
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopInfo,,,,2019-08-15 00:38:15,2019-08-15 00:39:10,55.673s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:38:15,2019-08-15 00:38:15,0.000s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:38:15,2019-08-15 00:38:17,2.400s,PASSED
+window().maximize(),,,,2019-08-15 00:38:17,2019-08-15 00:38:18,1.163s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:38:18,2019-08-15 00:38:35,16.148s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:38:35,2019-08-15 00:38:35,0.005s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:38:35,2019-08-15 00:38:35,0.133s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:38:35,2019-08-15 00:38:37,2.001s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:38:37,2019-08-15 00:38:37,0.196s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:38:37,2019-08-15 00:38:37,0.148s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:38:37,2019-08-15 00:38:37,0.135s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:38:37,2019-08-15 00:38:40,3.001s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:38:40,2019-08-15 00:39:10,30.085s,PASSED
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopStats,,,,2019-08-15 00:39:10,2019-08-15 00:40:02,51.891s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:39:11,2019-08-15 00:39:11,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:39:11,2019-08-15 00:39:13,2.197s,PASSED
+window().maximize(),,,,2019-08-15 00:39:13,2019-08-15 00:39:14,1.131s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:39:14,2019-08-15 00:39:26,12.244s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:39:26,2019-08-15 00:39:26,0.004s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:39:26,2019-08-15 00:39:27,0.241s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:39:27,2019-08-15 00:39:29,2.002s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-15 00:39:29,2019-08-15 00:39:29,0.233s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-15 00:39:29,2019-08-15 00:39:29,0.136s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:39:29,2019-08-15 00:39:29,0.184s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:39:29,2019-08-15 00:39:32,3.001s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-15 00:39:32,2019-08-15 00:40:02,30.107s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrder,,,,2019-08-15 00:40:02,2019-08-15 00:40:53,50.742s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-15 00:40:02,2019-08-15 00:40:02,0.000s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-15 00:40:02,2019-08-15 00:40:05,2.371s,PASSED
+window().maximize(),,,,2019-08-15 00:40:05,2019-08-15 00:40:06,1.178s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-15 00:40:06,2019-08-15 00:40:16,9.895s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-15 00:40:16,2019-08-15 00:40:16,0.019s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-15 00:40:16,2019-08-15 00:40:16,0.160s,PASSED
+Thread.sleep(2000),,,,2019-08-15 00:40:16,2019-08-15 00:40:18,2.001s,PASSED
+"id(""email_login"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-08-15 00:40:18,2019-08-15 00:40:18,0.325s,PASSED
+"id(""password_login"")).sendKeys(""admin#123"")",,,,2019-08-15 00:40:18,2019-08-15 00:40:19,0.136s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-15 00:40:19,2019-08-15 00:40:19,0.128s,PASSED
+Thread.sleep(3000),,,,2019-08-15 00:40:19,2019-08-15 00:40:22,3.001s,PASSED
+js = driver,,,,2019-08-15 00:40:22,2019-08-15 00:40:22,0.000s,PASSED
+"element = driver.findElement(By.id(""img_334""))",,,,2019-08-15 00:40:22,2019-08-15 00:40:53,31.282s,PASSED

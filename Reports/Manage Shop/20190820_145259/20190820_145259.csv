@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manage Shop,,,,2019-08-20 14:56:25,2019-08-20 14:58:13,1m - 47.823s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopInfo,,,,2019-08-20 14:56:26,2019-08-20 14:57:21,55.522s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:56:27,2019-08-20 14:56:27,0.003s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 14:56:27,2019-08-20 14:56:30,3.369s,PASSED
+window().maximize(),,,,2019-08-20 14:56:30,2019-08-20 14:56:31,1.171s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 14:56:31,2019-08-20 14:56:45,14.116s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 14:56:45,2019-08-20 14:56:45,0.029s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-20 14:56:45,2019-08-20 14:56:46,0.158s,PASSED
+Thread.sleep(2000),,,,2019-08-20 14:56:46,2019-08-20 14:56:48,2.011s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-20 14:56:48,2019-08-20 14:56:48,0.201s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-20 14:56:48,2019-08-20 14:56:48,0.126s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-20 14:56:48,2019-08-20 14:56:48,0.113s,PASSED
+Thread.sleep(3000),,,,2019-08-20 14:56:48,2019-08-20 14:56:51,3.003s,PASSED
+"xpath(""/html/body/header/div/span[1]"")).click()",,,,2019-08-20 14:56:51,2019-08-20 14:57:21,30.136s,PASSED
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopStats,,,,2019-08-20 14:57:21,2019-08-20 14:58:13,51.849s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:57:22,2019-08-20 14:57:22,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 14:57:22,2019-08-20 14:57:24,2.275s,PASSED
+window().maximize(),,,,2019-08-20 14:57:24,2019-08-20 14:57:25,1.131s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 14:57:25,2019-08-20 14:57:37,12.333s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 14:57:37,2019-08-20 14:57:37,0.007s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-20 14:57:37,2019-08-20 14:57:38,0.133s,PASSED
+Thread.sleep(2000),,,,2019-08-20 14:57:38,2019-08-20 14:57:40,2.003s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-20 14:57:40,2019-08-20 14:57:40,0.205s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-08-20 14:57:40,2019-08-20 14:57:40,0.148s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-20 14:57:40,2019-08-20 14:57:40,0.123s,PASSED
+Thread.sleep(3000),,,,2019-08-20 14:57:40,2019-08-20 14:57:43,3.002s,PASSED
+"xpath(""/html/body/header/div/span[1]"")).click()",,,,2019-08-20 14:57:43,2019-08-20 14:58:13,30.097s,PASSED

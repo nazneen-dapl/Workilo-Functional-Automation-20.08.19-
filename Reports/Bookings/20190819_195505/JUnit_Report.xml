@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Bookings" time="54" tests="1" failures="0" errors="0">
+    <testsuite name="Bookings" tests="1" failures="0" errors="0" time="54" timestamp="2019-08-19 19:55:09" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Bookings">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_195505"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_195505\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order" classname="Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order" status="PASSED">
+            <system-out>2019-08-19 19:55:10 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order: Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order&#xD;
+&#xD;
+2019-08-19 19:55:11 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 19:55:11 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 19:55:15 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 19:55:16 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 19:55:26 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 19:55:26 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 19:55:26 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 19:55:26 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:55:28 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-19 19:55:29 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-19 19:55:29 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-19 19:55:29 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 19:55:32 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[1]")).click(): null&#xD;
+&#xD;
+2019-08-19 19:56:02 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 19:56:02 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-19 19:56:02 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-19 19:56:02 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-19 19:56:02 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-19 19:55:09 - [TEST_SUITE][INCOMPLETE] - Bookings: null</system-out>
+        <system-err>2019-08-19 19:55:09 - [TEST_SUITE][INCOMPLETE] - Bookings: null</system-err>
+    </testsuite>
+</testsuites>

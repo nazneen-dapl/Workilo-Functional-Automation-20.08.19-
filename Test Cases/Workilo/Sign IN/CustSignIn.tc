@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustSignIn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d0e3bc0-b3e1-4b7f-b4a3-62f694e276f2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>139b9485-9bf0-476e-b270-b8d191e66e18</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>642a4958-ecea-480b-af8b-773e4044d3e4</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

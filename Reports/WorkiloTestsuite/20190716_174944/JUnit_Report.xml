@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="WorkiloTestsuite" time="149" tests="6" failures="0" errors="0">
+    <testsuite name="WorkiloTestsuite" tests="6" failures="0" errors="0" time="149" timestamp="2019-07-16 17:49:48" hostname="DAPL-Asset-70 - DAPL-Asset-70PC" id="Test Suites/WorkiloTestsuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-70\\Katalon Studio\\WorkiloAutomation\\Reports\\WorkiloTestsuite\\20190716_174944"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-70\\Katalon Studio\\WorkiloAutomation\\Reports\\WorkiloTestsuite\\20190716_174944\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-70 - DAPL-Asset-70PC"/>
+            <property name="hostAddress" value="192.168.1.185"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/WorkiloHomepageVerifyTitle" classname="Test Cases/Workilo/WorkiloHomepageVerifyTitle" status="PASSED">
+            <system-out>2019-07-16 17:49:48 - [TEST_CASE][PASSED] - Test Cases/Workilo/WorkiloHomepageVerifyTitle: Test Cases/Workilo/WorkiloHomepageVerifyTitle&#xD;
+&#xD;
+2019-07-16 17:49:49 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-16 17:49:49 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-16 17:49:53 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-16 17:49:54 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-16 17:50:00 - [TEST_STEP][PASSED] - actualTitle = driver.getTitle(): null&#xD;
+&#xD;
+2019-07-16 17:50:00 - [TEST_STEP][PASSED] - expectedTitle = "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo": null&#xD;
+&#xD;
+2019-07-16 17:50:00 - [TEST_STEP][PASSED] - Assert.assertEquals(actualTitle, expectedTitle, "Title didn't match."): null&#xD;
+&#xD;
+2019-07-16 17:50:00 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-16 17:50:03 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/CustomerLoginLogout" classname="Test Cases/Workilo/CustomerLoginLogout" status="PASSED">
+            <system-out>2019-07-16 17:50:04 - [TEST_CASE][PASSED] - Test Cases/Workilo/CustomerLoginLogout: Test Cases/Workilo/CustomerLoginLogout&#xD;
+&#xD;
+2019-07-16 17:50:04 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-16 17:50:04 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-16 17:50:07 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-16 17:50:08 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-16 17:50:14 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-07-16 17:50:14 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-07-16 17:50:14 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:50:16 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("shahbaz.dapl@gmail.com"): null&#xD;
+&#xD;
+2019-07-16 17:50:17 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-07-16 17:50:17 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:50:17 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-16 17:50:20 - [TEST_STEP][PASSED] - linkText("Log Out")).click(): null&#xD;
+&#xD;
+2019-07-16 17:50:22 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:50:24 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-07-16 17:50:24 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-07-16 17:50:24 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:50:26 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/CustomerSignUp" classname="Test Cases/Workilo/CustomerSignUp" status="PASSED">
+            <system-out>2019-07-16 17:50:27 - [TEST_CASE][PASSED] - Test Cases/Workilo/CustomerSignUp: Test Cases/Workilo/CustomerSignUp&#xD;
+&#xD;
+2019-07-16 17:50:27 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-16 17:50:27 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-16 17:50:29 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-16 17:50:31 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-16 17:50:39 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-07-16 17:50:39 - [TEST_STEP][PASSED] - linkText("Sign Up")).click(): null&#xD;
+&#xD;
+2019-07-16 17:50:40 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:50:42 - [TEST_STEP][PASSED] - xpath("//*[text()='Customer']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:50:42 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:50:44 - [TEST_STEP][PASSED] - id("email")).sendKeys("shahbaz.dapl@gmail.com"): null&#xD;
+&#xD;
+2019-07-16 17:50:44 - [TEST_STEP][PASSED] - id("firstName")).sendKeys("Shahbaz"): null&#xD;
+&#xD;
+2019-07-16 17:50:44 - [TEST_STEP][PASSED] - id("lastName")).sendKeys("Farooque"): null&#xD;
+&#xD;
+2019-07-16 17:50:44 - [TEST_STEP][PASSED] - id("password")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-07-16 17:50:44 - [TEST_STEP][PASSED] - id("contact_number")).sendKeys("9663326168"): null&#xD;
+&#xD;
+2019-07-16 17:50:44 - [TEST_STEP][PASSED] - //*[@value='Sign Up']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:50:45 - [TEST_STEP][PASSED] - Thread.sleep(5000): null&#xD;
+&#xD;
+2019-07-16 17:50:50 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/PlaceOrder" classname="Test Cases/Workilo/PlaceOrder" status="PASSED">
+            <system-out>2019-07-16 17:50:50 - [TEST_CASE][PASSED] - Test Cases/Workilo/PlaceOrder: Test Cases/Workilo/PlaceOrder&#xD;
+&#xD;
+2019-07-16 17:50:51 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-16 17:50:51 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-16 17:50:53 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-16 17:50:54 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-16 17:51:00 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-07-16 17:51:00 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:01 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:03 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("shahbaz.dapl@gmail.com"): null&#xD;
+&#xD;
+2019-07-16 17:51:03 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-07-16 17:51:03 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:03 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-16 17:51:06 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-07-16 17:51:06 - [TEST_STEP][PASSED] - element = driver.findElement(By.id("img_334")): null&#xD;
+&#xD;
+2019-07-16 17:51:06 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", element): null&#xD;
+&#xD;
+2019-07-16 17:51:06 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:08 - [TEST_STEP][PASSED] - id("img_334")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:08 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:10 - [TEST_STEP][PASSED] - xpath("/html/body/div[6]/i")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:15 - [TEST_STEP][PASSED] - element2 = driver.findElement(By.xpath(".//*[text()='book now']")): null&#xD;
+&#xD;
+2019-07-16 17:51:15 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-07-16 17:51:15 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:17 - [TEST_STEP][PASSED] - element2.click(): null&#xD;
+&#xD;
+2019-07-16 17:51:17 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-16 17:51:20 - [TEST_STEP][PASSED] - id("step1")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:20 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-16 17:51:23 - [TEST_STEP][PASSED] - id("billing_address1")).sendKeys("Level 34/630 Defodil ST"): null&#xD;
+&#xD;
+2019-07-16 17:51:23 - [TEST_STEP][PASSED] - id("billing_city")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:24 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:26 - [TEST_STEP][PASSED] - element3 = driver.findElement(By.xpath("//*[@id='tab-2']/div[2]/a[1]")): null&#xD;
+&#xD;
+2019-07-16 17:51:26 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", element3): null&#xD;
+&#xD;
+2019-07-16 17:51:26 - [TEST_STEP][PASSED] - element3.click(): null&#xD;
+&#xD;
+2019-07-16 17:51:26 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:28 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-3']/div[2]/a[1]")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:28 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:30 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-4']/div[1]/div[1]/span")).click(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/ServiceProviderLoginLogout" classname="Test Cases/Workilo/ServiceProviderLoginLogout" status="PASSED">
+            <system-out>2019-07-16 17:51:30 - [TEST_CASE][PASSED] - Test Cases/Workilo/ServiceProviderLoginLogout: Test Cases/Workilo/ServiceProviderLoginLogout&#xD;
+&#xD;
+2019-07-16 17:51:31 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-16 17:51:31 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-16 17:51:33 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-16 17:51:34 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-16 17:51:40 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-07-16 17:51:40 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:40 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:42 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("test1@gmail.com"): null&#xD;
+&#xD;
+2019-07-16 17:51:42 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin@123"): null&#xD;
+&#xD;
+2019-07-16 17:51:43 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:43 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-16 17:51:46 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[1]")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:46 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:48 - [TEST_STEP][PASSED] - linkText("Sign Out")).click(): null&#xD;
+&#xD;
+2019-07-16 17:51:50 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:52 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-07-16 17:51:52 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-07-16 17:51:52 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:51:54 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/ServiceProviderSignUp" classname="Test Cases/Workilo/ServiceProviderSignUp" status="PASSED">
+            <system-out>2019-07-16 17:51:55 - [TEST_CASE][PASSED] - Test Cases/Workilo/ServiceProviderSignUp: Test Cases/Workilo/ServiceProviderSignUp&#xD;
+&#xD;
+2019-07-16 17:51:55 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-16 17:51:55 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-16 17:51:57 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-16 17:51:59 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-16 17:52:06 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-07-16 17:52:06 - [TEST_STEP][PASSED] - linkText("Sign Up")).click(): null&#xD;
+&#xD;
+2019-07-16 17:52:06 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:52:08 - [TEST_STEP][PASSED] - xpath("//*[text()='Service Provider']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:52:08 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-16 17:52:10 - [TEST_STEP][PASSED] - id("email")).sendKeys("test1@gmail.com"): null&#xD;
+&#xD;
+2019-07-16 17:52:10 - [TEST_STEP][PASSED] - id("firstName")).sendKeys("Workilo"): null&#xD;
+&#xD;
+2019-07-16 17:52:10 - [TEST_STEP][PASSED] - id("lastName")).sendKeys("Test"): null&#xD;
+&#xD;
+2019-07-16 17:52:10 - [TEST_STEP][PASSED] - id("password")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-07-16 17:52:11 - [TEST_STEP][PASSED] - id("contact_number")).sendKeys("8521036974"): null&#xD;
+&#xD;
+2019-07-16 17:52:11 - [TEST_STEP][PASSED] - //*[@value='Sign Up']")).click(): null&#xD;
+&#xD;
+2019-07-16 17:52:11 - [TEST_STEP][PASSED] - Thread.sleep(5000): null&#xD;
+&#xD;
+2019-07-16 17:52:16 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-16 17:49:48 - [TEST_SUITE][INCOMPLETE] - WorkiloTestsuite: null</system-out>
+        <system-err>2019-07-16 17:49:48 - [TEST_SUITE][INCOMPLETE] - WorkiloTestsuite: null</system-err>
+    </testsuite>
+</testsuites>

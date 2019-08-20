@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Block-UnblockDateByServiceProvider,,,,2019-08-20 13:36:25,2019-08-20 13:37:24,58.854s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/BlockUnblockDateByServiceProvider,,,,2019-08-20 13:36:26,2019-08-20 13:37:24,58.026s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 13:36:27,2019-08-20 13:36:27,0.021s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 13:36:27,2019-08-20 13:36:32,4.289s,PASSED
+window().maximize(),,,,2019-08-20 13:36:32,2019-08-20 13:36:33,1.257s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 13:36:33,2019-08-20 13:36:47,13.523s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 13:36:47,2019-08-20 13:36:47,0.042s,PASSED
+try,,,,2019-08-20 13:36:47,2019-08-20 13:37:23,36.060s,PASSED
+catch (Exception e),,,,2019-08-20 13:37:23,2019-08-20 13:37:24,1.393s,PASSED

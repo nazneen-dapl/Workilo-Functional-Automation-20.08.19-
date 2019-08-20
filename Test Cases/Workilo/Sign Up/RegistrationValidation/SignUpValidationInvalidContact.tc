@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpValidationInvalidContact</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e51388f3-5e1a-49bb-a60e-8c62c4d696e2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>8e75fcb7-0342-4516-949c-f3e3280085cb</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>6683e9e2-48fb-4dcc-9e68-44cf4537a405</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

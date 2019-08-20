@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="CustomerSignUp" time="29" tests="1" failures="0" errors="0">
+    <testsuite name="CustomerSignUp" tests="1" failures="0" errors="0" time="29" timestamp="2019-08-20 14:58:25" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/CustomerSignUp">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\CustomerSignUp\\20190820_145300"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\CustomerSignUp\\20190820_145300\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin" classname="Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin" status="PASSED">
+            <system-out>2019-08-20 14:58:25 - [TEST_CASE][PASSED] - Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin: Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin&#xD;
+&#xD;
+2019-08-20 14:58:26 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-20 14:58:26 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-20 14:58:30 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-20 14:58:31 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-20 14:58:47 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-20 14:58:48 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-20 14:58:48 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-20 14:58:48 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 14:58:50 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("shahbaz.dapl123.com"): null&#xD;
+&#xD;
+2019-08-20 14:58:50 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-20 14:58:50 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-20 14:58:50 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 14:58:52 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-08-20 14:58:52 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-08-20 14:58:52 - [TEST_STEP][PASSED] - Thread.sleep(2000): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-20 14:58:25 - [TEST_SUITE][INCOMPLETE] - CustomerSignUp: null</system-out>
+        <system-err>2019-08-20 14:58:25 - [TEST_SUITE][INCOMPLETE] - CustomerSignUp: null</system-err>
+    </testsuite>
+</testsuites>

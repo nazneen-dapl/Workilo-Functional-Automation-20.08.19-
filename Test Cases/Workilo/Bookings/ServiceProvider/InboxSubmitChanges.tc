@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InboxSubmitChanges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>401181c3-ceb3-4bf2-a26f-ef7abc0f02ce</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>0d76f2a4-881f-461f-91a8-7b8dcb68b572</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>3f66cd05-eb20-4900-8ed9-33dc6777d504</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

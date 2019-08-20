@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Block-UnblockDateByServiceProvider</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>18723af1-ea8e-4438-9993-e81edb3827f6</testSuiteGuid>
+   <testCaseLink>
+      <guid>5eeff431-07d3-4c65-b8dc-b00a08bcdd49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/BlockUnblockDateByServiceProvider</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c3ff6db-8941-45a8-950d-823e1e5d153d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a27cdf2d-f0c0-4243-95a6-bcc6bb8f2ecd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

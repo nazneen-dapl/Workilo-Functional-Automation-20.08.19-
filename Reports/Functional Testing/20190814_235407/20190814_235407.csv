@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Testing,,,,2019-08-14 23:54:14,2019-08-14 23:55:47,1m - 33.273s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode,,,,2019-08-14 23:54:14,2019-08-14 23:55:47,1m - 32.592s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-14 23:54:16,2019-08-14 23:54:16,0.014s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-14 23:54:16,2019-08-14 23:54:20,3.976s,PASSED
+window().maximize(),,,,2019-08-14 23:54:20,2019-08-14 23:54:21,1.190s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-14 23:54:21,2019-08-14 23:54:33,12.753s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-14 23:54:33,2019-08-14 23:54:34,0.033s,PASSED
+try,,,,2019-08-14 23:54:34,2019-08-14 23:55:46,1m - 12.156s,PASSED
+catch (Exception e),,,,2019-08-14 23:55:46,2019-08-14 23:55:47,1.182s,PASSED

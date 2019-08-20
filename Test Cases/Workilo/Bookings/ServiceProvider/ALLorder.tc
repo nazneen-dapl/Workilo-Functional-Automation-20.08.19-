@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ALLorder</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2f9c5a8-1573-4b45-af9b-89a19b5d7b54</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>22d33eda-4252-4b68-9821-91d942a98005</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>6eaba369-c8ae-4fdf-b871-1aafeae08e2a</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

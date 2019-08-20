@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Listing,,,,2019-08-17 21:59:57,2019-08-17 22:01:09,1m - 11.777s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Listing/Add Listing/AddListing,,,,2019-08-17 21:59:57,2019-08-17 22:01:09,1m - 11.150s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-17 21:59:59,2019-08-17 21:59:59,0.008s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-17 21:59:59,2019-08-17 22:00:03,4.349s,PASSED
+window().maximize(),,,,2019-08-17 22:00:03,2019-08-17 22:00:04,1.223s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-17 22:00:04,2019-08-17 22:00:18,13.741s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-17 22:00:18,2019-08-17 22:00:18,0.023s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-17 22:00:18,2019-08-17 22:00:18,0.143s,PASSED
+Thread.sleep(2000),,,,2019-08-17 22:00:18,2019-08-17 22:00:20,2.011s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-17 22:00:20,2019-08-17 22:00:20,0.192s,PASSED
+"id(""password_login"")).sendKeys(""admin#123"")",,,,2019-08-17 22:00:20,2019-08-17 22:00:21,0.127s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-17 22:00:21,2019-08-17 22:00:21,0.140s,PASSED
+Thread.sleep(3000),,,,2019-08-17 22:00:21,2019-08-17 22:00:24,3.002s,PASSED
+"xpath(""/html/body/header/div/span[1]"")).click()",,,,2019-08-17 22:00:24,2019-08-17 22:00:24,0.119s,PASSED
+Thread.sleep(2000),,,,2019-08-17 22:00:24,2019-08-17 22:00:26,2.002s,PASSED
+"xpath(""/html/body/div[4]/div/div[1]/ul/li[4]/a"")).click()",,,,2019-08-17 22:00:26,2019-08-17 22:00:28,2.247s,PASSED
+"name(""title"")).sendKeys(""Home Appliances"")",,,,2019-08-17 22:00:28,2019-08-17 22:00:28,0.176s,PASSED
+category = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.id(category))),,,,2019-08-17 22:00:28,2019-08-17 22:00:28,0.087s,PASSED
+"category.selectByValue(""80"")",,,,2019-08-17 22:00:28,2019-08-17 22:00:28,0.105s,PASSED
+"xpath(""//*[@id='tags']/input[1]"")).sendKeys(""Repairing"")",,,,2019-08-17 22:00:28,2019-08-17 22:00:29,0.133s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.010s,PASSED
+build().perform(),,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.051s,PASSED
+"xpath(""//*[@id='tags']/input[1]"")).sendKeys(""Installing"")",,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.117s,PASSED
+build().perform(),,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.015s,PASSED
+"description = ""We delivered our service at very low cost. We provide home renovation repairing and installing new things.""",,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.001s,PASSED
+"id(""description"")).sendKeys(description)",,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.461s,PASSED
+"id(""total_price"")).sendKeys(""1"")",,,,2019-08-17 22:00:29,2019-08-17 22:00:29,0.106s,PASSED
+"id(""editor2"")).sendKeys(""We provide all the materials which is needed at the time of installation or repairing."")",,,,2019-08-17 22:00:29,2019-08-17 22:00:30,0.419s,PASSED
+travel = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.id(miles_travel))),,,,2019-08-17 22:00:30,2019-08-17 22:00:30,0.043s,PASSED
+"travel.selectByValue(""5"")",,,,2019-08-17 22:00:30,2019-08-17 22:00:30,0.090s,PASSED
+"id(""where_located"")).sendKeys(""New York City"")",,,,2019-08-17 22:00:30,2019-08-17 22:00:30,0.159s,PASSED
+"id(""manyhours"")).sendKeys(""8"")",,,,2019-08-17 22:00:30,2019-08-17 22:00:30,0.084s,PASSED
+"name(""about_listing"")).sendKeys(""test@gmail.com"")",,,,2019-08-17 22:00:30,2019-08-17 22:00:30,0.152s,PASSED
+"id(""img_up_1"")).sendKeys(""C:\Users\DAPL-Asset-180\Desktop\images.jpg"")",,,,2019-08-17 22:00:30,2019-08-17 22:00:30,0.063s,PASSED
+Thread.sleep(5000),,,,2019-08-17 22:00:30,2019-08-17 22:00:35,5.001s,PASSED
+js = driver,,,,2019-08-17 22:00:35,2019-08-17 22:00:35,0.001s,PASSED
+"js.executeScript(""window.scrollBy(0,500)"")",,,,2019-08-17 22:00:35,2019-08-17 22:00:35,0.036s,PASSED
+"xpath(""//*[@id='addlist']/div[2]/input[2]"")).click()",,,,2019-08-17 22:00:35,2019-08-17 22:00:39,3.060s,PASSED
+"js.executeScript(""window.scrollBy(0,500)"")",,,,2019-08-17 22:00:39,2019-08-17 22:00:39,0.018s,PASSED
+"xpath(""/html/body/header/div/div[2]/ul/li[1]/a"")).click()",,,,2019-08-17 22:00:39,2019-08-17 22:01:09,30.074s,PASSED

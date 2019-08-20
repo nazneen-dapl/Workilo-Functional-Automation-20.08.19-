@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Bookings" time="214" tests="3" failures="0" errors="4">
+    <testsuite name="Bookings" tests="3" failures="0" errors="4" time="214" timestamp="2019-08-19 20:40:06" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Bookings">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_204002"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_204002\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder" classname="Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder FAILED.&#xA;Reason:&#xA;java.io.IOException: Destination 'C:\Users\DAPL-Asset-271\Desktop\WorkiloautomationScreenshot' directory cannot be created&#xD;&#xA;&#x9;at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)&#xD;&#xA;&#x9;at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)&#xD;&#xA;&#x9;at org.apache.commons.io.FileUtils$copyFile.call(Unknown Source)&#xD;&#xA;&#x9;at AcceptedOrder.run(AcceptedOrder:178)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-19 20:40:06 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder: Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder FAILED.
+Reason:
+java.io.IOException: Destination 'C:\Users\DAPL-Asset-271\Desktop\WorkiloautomationScreenshot' directory cannot be created&#xD;
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)&#xD;
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)&#xD;
+	at org.apache.commons.io.FileUtils$copyFile.call(Unknown Source)&#xD;
+	at AcceptedOrder.run(AcceptedOrder:178)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-19 20:40:07 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:40:07 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:40:11 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:40:12 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 20:40:29 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 20:40:29 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 20:40:29 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 20:40:29 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 20:40:31 - [TEST_STEP][PASSED] - id("email_login")).sendkeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-19 20:40:32 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 20:40:32 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-19 20:40:32 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((C:\Users\DAPL-Asset-271\Desktop\WorkiloautomationScreenshot\servProvAcceptedOrder + java.lang.System.currentTimeMillis()) + .png))): null</system-out>
+            <system-err>2019-08-19 20:40:06 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder: Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder FAILED.
+Reason:
+java.io.IOException: Destination 'C:\Users\DAPL-Asset-271\Desktop\WorkiloautomationScreenshot' directory cannot be created&#xD;
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1085)&#xD;
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)&#xD;
+	at org.apache.commons.io.FileUtils$copyFile.call(Unknown Source)&#xD;
+	at AcceptedOrder.run(AcceptedOrder:178)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/CustomerAcceptedRequestedOrder" classname="Test Cases/Workilo/Bookings/Customer/CustomerAcceptedRequestedOrder" status="PASSED">
+            <system-out>2019-08-19 20:40:32 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/CustomerAcceptedRequestedOrder: Test Cases/Workilo/Bookings/Customer/CustomerAcceptedRequestedOrder&#xD;
+&#xD;
+2019-08-19 20:40:33 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:40:33 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:40:35 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:40:36 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 20:40:54 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 20:40:54 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 20:40:54 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 20:40:54 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 20:40:56 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("nabin@digitalaptech.com"): null&#xD;
+&#xD;
+2019-08-19 20:40:56 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 20:40:56 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-19 20:40:57 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-19 20:40:57 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-19 20:40:57 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/CustomerInbox" classname="Test Cases/Workilo/Bookings/Customer/CustomerInbox" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Bookings/Customer/CustomerInbox FAILED.&#xA;Reason:&#xA;org.openqa.selenium.WebDriverException: chrome not reachable&#xA;  (Session info: chrome=76.0.3809.100)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 4cf43c7ca762184afefcbd152791eefb&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;&#xA;&#x9;at org.openqa.selenium.TakesScreenshot$getScreenshotAs.call(Unknown Source)&#xD;&#xA;&#x9;at CustomerInbox.run(CustomerInbox:108)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-19 20:40:58 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/Customer/CustomerInbox: Test Cases/Workilo/Bookings/Customer/CustomerInbox FAILED.
+Reason:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf43c7ca762184afefcbd152791eefb&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at org.openqa.selenium.TakesScreenshot$getScreenshotAs.call(Unknown Source)&#xD;
+	at CustomerInbox.run(CustomerInbox:108)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-19 20:40:58 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:40:58 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:41:00 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:41:06 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 20:41:06 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 20:41:12 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 20:41:12 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null</system-out>
+            <system-err>2019-08-19 20:40:58 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/Customer/CustomerInbox: Test Cases/Workilo/Bookings/Customer/CustomerInbox FAILED.
+Reason:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf43c7ca762184afefcbd152791eefb&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at org.openqa.selenium.TakesScreenshot$getScreenshotAs.call(Unknown Source)&#xD;
+	at CustomerInbox.run(CustomerInbox:108)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All)" classname="Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All)" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All) FAILED.&#xA;Reason:&#xA;org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#xA;from unknown error: web view not found&#xA;  (Session info: chrome=76.0.3809.100)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 046de0098272fd39ea236d04ca9b69b2&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;&#xA;&#x9;at org.openqa.selenium.TakesScreenshot$getScreenshotAs.call(Unknown Source)&#xD;&#xA;&#x9;at TaskCompleted(All).run(TaskCompleted(All):139)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-19 20:41:19 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All): Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All) FAILED.
+Reason:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 046de0098272fd39ea236d04ca9b69b2&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at org.openqa.selenium.TakesScreenshot$getScreenshotAs.call(Unknown Source)&#xD;
+	at TaskCompleted(All).run(TaskCompleted(All):139)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-19 20:41:19 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:41:19 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:41:22 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:41:23 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 20:41:23 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 20:41:36 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 20:41:36 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 20:41:36 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 20:41:38 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-19 20:41:38 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin@123"): null&#xD;
+&#xD;
+2019-08-19 20:41:38 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-19 20:41:39 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 20:41:42 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-19 20:42:03 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 20:42:03 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null</system-out>
+            <system-err>2019-08-19 20:41:19 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All): Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All) FAILED.
+Reason:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 046de0098272fd39ea236d04ca9b69b2&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at org.openqa.selenium.TakesScreenshot$getScreenshotAs.call(Unknown Source)&#xD;
+	at TaskCompleted(All).run(TaskCompleted(All):139)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/ServiceProvider/Order Completed" classname="Test Cases/Workilo/Bookings/ServiceProvider/Order Completed" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Bookings/ServiceProvider/Order Completed FAILED.&#xA;Reason:&#xA;org.openqa.selenium.WebDriverException: chrome not reachable&#xA;  (Session info: chrome=76.0.3809.100)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'&#xA;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 4fa520d3a6d81cc5fbdaf40e4e908fd5&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#xD;&#xA;&#x9;at org.openqa.selenium.WebDriver$get$0.call(Unknown Source)&#xD;&#xA;&#x9;at Order Completed.run(Order Completed:21)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-19 20:42:03 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/ServiceProvider/Order Completed: Test Cases/Workilo/Bookings/ServiceProvider/Order Completed FAILED.
+Reason:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4fa520d3a6d81cc5fbdaf40e4e908fd5&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#xD;
+	at org.openqa.selenium.WebDriver$get$0.call(Unknown Source)&#xD;
+	at Order Completed.run(Order Completed:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-19 20:42:04 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:42:04 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:42:06 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:42:16 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null</system-out>
+            <system-err>2019-08-19 20:42:03 - [TEST_CASE][ERROR] - Test Cases/Workilo/Bookings/ServiceProvider/Order Completed: Test Cases/Workilo/Bookings/ServiceProvider/Order Completed FAILED.
+Reason:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DAPL-ASSET-180', ip: '192.168.1.188', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\DAPL-A~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4fa520d3a6d81cc5fbdaf40e4e908fd5&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#xD;
+	at org.openqa.selenium.WebDriver$get$0.call(Unknown Source)&#xD;
+	at Order Completed.run(Order Completed:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566227402441.run(TempTestSuite1566227402441.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/CustomerOrderCompletedOrder" classname="Test Cases/Workilo/Bookings/Customer/CustomerOrderCompletedOrder" status="PASSED">
+            <system-out>2019-08-19 20:42:20 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/CustomerOrderCompletedOrder: Test Cases/Workilo/Bookings/Customer/CustomerOrderCompletedOrder&#xD;
+&#xD;
+2019-08-19 20:42:21 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:42:21 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:42:24 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:42:25 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 20:42:39 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 20:42:39 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 20:42:39 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 20:42:39 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 20:42:41 - [TEST_STEP][PASSED] - id("email_login")).sendkeys("nabin@digitalaptech.com"): null&#xD;
+&#xD;
+2019-08-19 20:42:41 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 20:42:41 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-19 20:42:41 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-19 20:42:41 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-19 20:42:41 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/TransactionHistory" classname="Test Cases/Workilo/Bookings/Customer/TransactionHistory" status="PASSED">
+            <system-out>2019-08-19 20:42:42 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/TransactionHistory: Test Cases/Workilo/Bookings/Customer/TransactionHistory&#xD;
+&#xD;
+2019-08-19 20:42:43 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 20:42:43 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 20:42:45 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 20:42:46 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 20:42:58 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 20:42:58 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 20:42:58 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 20:42:59 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 20:43:01 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-19 20:43:01 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-19 20:43:01 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-19 20:43:01 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 20:43:04 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-19 20:43:07 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 20:43:09 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click(): null&#xD;
+&#xD;
+2019-08-19 20:43:39 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-19 20:43:39 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-19 20:43:39 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-19 20:43:39 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-19 20:43:40 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-19 20:40:06 - [TEST_SUITE][INCOMPLETE] - Bookings: null</system-out>
+        <system-err>2019-08-19 20:40:06 - [TEST_SUITE][INCOMPLETE] - Bookings: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Listing,,,,2019-08-17 21:29:52,2019-08-17 21:30:21,29.052s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Listing/Add Listing/AddListing,,,,2019-08-17 21:29:52,2019-08-17 21:30:21,28.521s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-17 21:29:53,2019-08-17 21:29:53,0.006s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-17 21:29:53,2019-08-17 21:29:57,4.060s,PASSED
+window().maximize(),,,,2019-08-17 21:29:57,2019-08-17 21:29:59,1.164s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-17 21:29:59,2019-08-17 21:30:09,10.309s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-17 21:30:09,2019-08-17 21:30:09,0.027s,PASSED
+"linkText(""Log In"")).click()",,,,2019-08-17 21:30:09,2019-08-17 21:30:09,0.177s,PASSED
+Thread.sleep(2000),,,,2019-08-17 21:30:09,2019-08-17 21:30:11,2.013s,PASSED
+"id(""email_login"")).sendKeys(""testworkilo@gmail.com"")",,,,2019-08-17 21:30:11,2019-08-17 21:30:11,0.224s,PASSED
+"id(""password_login"")).sendKeys(""admin#123"")",,,,2019-08-17 21:30:11,2019-08-17 21:30:12,0.202s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-08-17 21:30:12,2019-08-17 21:30:12,0.135s,PASSED
+Thread.sleep(3000),,,,2019-08-17 21:30:12,2019-08-17 21:30:15,3.003s,PASSED
+"xpath(""/html/body/header/div/span[1]"")).click()",,,,2019-08-17 21:30:15,2019-08-17 21:30:15,0.120s,PASSED
+Thread.sleep(2000),,,,2019-08-17 21:30:15,2019-08-17 21:30:17,2.000s,PASSED
+"xpath(""/html/body/div[4]/div/div[1]/ul/li[4]/a"")).click()",,,,2019-08-17 21:30:17,2019-08-17 21:30:18,1.521s,PASSED
+"name(""title"")).sendKeys(""Home Appliances"")",,,,2019-08-17 21:30:18,2019-08-17 21:30:19,0.190s,PASSED
+category = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.id(category))),,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.068s,PASSED
+"category.selectByValue(""80"")",,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.106s,PASSED
+"xpath(""//*[@id='tags']/input[1]"")).sendKeys(""Repairing"")",,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.142s,PASSED
+action = new org.openqa.selenium.interactions.Actions(driver),,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.014s,PASSED
+build().perform(),,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.044s,PASSED
+"xpath(""//*[@id='tags']/input[1]"")).sendKeys(""Installing"")",,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.129s,PASSED
+build().perform(),,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.016s,PASSED
+"description = ""We delivered our service at very low cost. We provide home renovation repairing and installing new things.""",,,,2019-08-17 21:30:19,2019-08-17 21:30:19,0.001s,PASSED
+"id(""description"")).sendKeys(description)",,,,2019-08-17 21:30:19,2019-08-17 21:30:20,0.508s,PASSED
+"id(""total_price"")).sendKeys(""1"")",,,,2019-08-17 21:30:20,2019-08-17 21:30:20,0.138s,PASSED
+"id(""editor2"")).sendKeys(""We provide all the materials which is needed at the time of installation or repairing."")",,,,2019-08-17 21:30:20,2019-08-17 21:30:20,0.449s,PASSED
+travel = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.id(miles_travel))),,,,2019-08-17 21:30:20,2019-08-17 21:30:20,0.049s,PASSED
+"travel.selectByValue(""5"")",,,,2019-08-17 21:30:20,2019-08-17 21:30:20,0.089s,PASSED
+"id(""where_located"")).sendKeys(""New York City"")",,,,2019-08-17 21:30:20,2019-08-17 21:30:21,0.195s,PASSED
+"id(""manyhours"")).sendKeys(""8"")",,,,2019-08-17 21:30:21,2019-08-17 21:30:21,0.103s,PASSED
+"name(""about_listing"")).sendKeys(""test@gmail.com"")",,,,2019-08-17 21:30:21,2019-08-17 21:30:21,0.175s,PASSED
+"id(""img_up_1"")).sendKeys(""C:\Users\DAPL-Asset-70\Desktop\Openpay Logo\subcategory1_34.jpg"")",,,,2019-08-17 21:30:21,2019-08-17 21:30:21,0.156s,PASSED

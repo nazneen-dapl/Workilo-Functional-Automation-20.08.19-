@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer Decline Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5319ba6e-ed2e-48b1-abfc-da8443ddfa62</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>c1f96cb2-b6bf-4b87-827a-a1aee8b824a3</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>cc12ce97-fbae-41f0-9085-ab5e62df6171</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

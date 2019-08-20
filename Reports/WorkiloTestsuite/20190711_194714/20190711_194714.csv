@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WorkiloTestsuite,,,,2019-07-11 19:47:18,2019-07-11 19:48:04,46.186s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/WorkiloHomepageVerifyTitle,,,,2019-07-11 19:47:19,2019-07-11 19:47:38,19.544s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-11 19:47:19,2019-07-11 19:47:19,0.031s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-11 19:47:19,2019-07-11 19:47:23,4.436s,PASSED
+window().maximize(),,,,2019-07-11 19:47:23,2019-07-11 19:47:25,1.350s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-07-11 19:47:25,2019-07-11 19:47:34,9.063s,PASSED
+actualTitle = driver.getTitle(),,,,2019-07-11 19:47:34,2019-07-11 19:47:34,0.177s,PASSED
+"expectedTitle = ""Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo""",,,,2019-07-11 19:47:34,2019-07-11 19:47:34,0.002s,PASSED
+"Assert.assertEquals(actualTitle, expectedTitle, ""Title didn't match."")",,,,2019-07-11 19:47:34,2019-07-11 19:47:34,0.026s,PASSED
+Thread.sleep(3000),,,,2019-07-11 19:47:34,2019-07-11 19:47:37,3.007s,PASSED
+driver.quit(),,,,2019-07-11 19:47:37,2019-07-11 19:47:38,0.955s,PASSED
+,,,,,,,
+Test Cases/Workilo/CustomerLoginLogout,,,,2019-07-11 19:47:38,2019-07-11 19:48:04,25.975s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"")",,,,2019-07-11 19:47:39,2019-07-11 19:47:39,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-07-11 19:47:39,2019-07-11 19:47:43,3.872s,PASSED
+window().maximize(),,,,2019-07-11 19:47:43,2019-07-11 19:47:44,1.190s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-07-11 19:47:44,2019-07-11 19:47:51,7.668s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-07-11 19:47:51,2019-07-11 19:47:51,0.050s,PASSED
+"linkText(""Log In"")).click()",,,,2019-07-11 19:47:51,2019-07-11 19:47:52,0.269s,PASSED
+Thread.sleep(2000),,,,2019-07-11 19:47:52,2019-07-11 19:47:54,2.003s,PASSED
+"id(""email_login"")).sendKeys(""shahbaz.dapl@gmail.com"")",,,,2019-07-11 19:47:54,2019-07-11 19:47:54,0.408s,PASSED
+"id(""password_login"")).sendKeys(""admin@123"")",,,,2019-07-11 19:47:54,2019-07-11 19:47:55,0.958s,PASSED
+"//*[@value='Log in']"")).click()",,,,2019-07-11 19:47:55,2019-07-11 19:47:55,0.191s,PASSED
+Thread.sleep(3000),,,,2019-07-11 19:47:55,2019-07-11 19:47:58,3.000s,PASSED
+"linkText(""Log Out"")).click()",,,,2019-07-11 19:47:58,2019-07-11 19:48:01,2.851s,PASSED
+Thread.sleep(2000),,,,2019-07-11 19:48:01,2019-07-11 19:48:03,2.001s,PASSED
+driver.quit(),,,,2019-07-11 19:48:03,2019-07-11 19:48:04,0.955s,PASSED

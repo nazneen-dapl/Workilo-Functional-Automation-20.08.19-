@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ServProvSignUp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c74e196-7250-4ef0-9d70-faf08158cab5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>8c06aaa2-26d7-43e5-b5ee-7f1ccc4ed925</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>3f80a3d4-e1c6-44e1-960f-2b5b6ce35642</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

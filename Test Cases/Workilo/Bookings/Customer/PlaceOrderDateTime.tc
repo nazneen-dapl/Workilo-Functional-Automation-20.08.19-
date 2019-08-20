@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PlaceOrderDateTime</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>443e54f4-c5b8-4b06-ae63-1e71598d3e61</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>ffff84f1-edc5-4836-a9d0-135f5281a91d</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>13161301-f3e0-4435-908f-e1ccc80e4410</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.orderId</defaultValue>
+      <description></description>
+      <id>23bc5acc-e67b-40e8-bb67-0fb14a3c06a6</id>
+      <masked>false</masked>
+      <name>orderId</name>
+   </variable>
+</TestCaseEntity>

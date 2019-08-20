@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CompleteBookingOrder,,,,2019-08-20 14:44:11,2019-08-20 14:44:13,2.221s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode,,,,2019-08-20 14:44:12,2019-08-20 14:44:13,1.035s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:44:13,2019-08-20 14:44:13,0.007s,PASSED
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order,,,,2019-08-20 14:44:13,2019-08-20 14:44:13,0.705s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:44:13,2019-08-20 14:44:13,0.003s,PASSED

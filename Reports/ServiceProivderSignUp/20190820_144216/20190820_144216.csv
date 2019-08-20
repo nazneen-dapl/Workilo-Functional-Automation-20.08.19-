@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ServiceProivderSignUp,,,,2019-08-20 14:42:45,2019-08-20 14:42:47,2.318s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidEmailIdLogin,,,,2019-08-20 14:42:46,2019-08-20 14:42:47,1.391s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:42:47,2019-08-20 14:42:47,0.005s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AcceptChanges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c0903ad-f8dd-45e9-a13a-8abe861b512b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>f9011369-14f8-48d5-ab34-8b5e989c6400</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>34678717-5eff-42cf-8b53-2838d0b3d8ba</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

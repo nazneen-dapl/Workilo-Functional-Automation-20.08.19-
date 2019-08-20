@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BlankpaymentValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57ec178b-ca0e-4dc4-9175-1e16e843576a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>ac34013f-fdae-4865-a98f-e767a9220fa6</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>9b2dde33-47c1-4683-bdfa-6f1f0d5ada11</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="CompleteBookingOrder" time="102" tests="1" failures="1" errors="0">
+    <testsuite name="CompleteBookingOrder" tests="1" failures="1" errors="0" time="102" timestamp="2019-08-20 13:50:38" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/CompleteBookingOrder">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\CompleteBookingOrder\\20190820_135034"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\CompleteBookingOrder\\20190820_135034\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode" classname="Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode" status="PASSED">
+            <system-out>2019-08-20 13:50:39 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode: Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode&#xD;
+&#xD;
+2019-08-20 13:50:40 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-20 13:50:40 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-20 13:50:44 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-20 13:50:45 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-20 13:50:56 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-20 13:50:56 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-20 13:50:56 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-20 13:50:56 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:50:58 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("nabin@digitalaptech.com"): null&#xD;
+&#xD;
+2019-08-20 13:50:58 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-20 13:50:59 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-20 13:50:59 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-20 13:51:02 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-20 13:51:02 - [TEST_STEP][PASSED] - id("search-input-desk")).sendKeys("Home Appliances"): null&#xD;
+&#xD;
+2019-08-20 13:51:06 - [TEST_STEP][PASSED] - xpath("//*[@id='select_list']/button")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:10 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-20 13:51:10 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:12 - [TEST_STEP][PASSED] - xpath("//*[@id='demo']/div/div/div[1]")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:19 - [TEST_STEP][PASSED] - element2 = driver.findElement(By.xpath(".//*[text()='book now']")): null&#xD;
+&#xD;
+2019-08-20 13:51:19 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-20 13:51:19 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:21 - [TEST_STEP][PASSED] - element2.click(): null&#xD;
+&#xD;
+2019-08-20 13:51:22 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-20 13:51:25 - [TEST_STEP][PASSED] - id("step1")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:25 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-20 13:51:28 - [TEST_STEP][PASSED] - id("billing_address1")).sendKeys("446 Plymouth St. Brooklyn"): null&#xD;
+&#xD;
+2019-08-20 13:51:28 - [TEST_STEP][PASSED] - id("billing_city")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:28 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:30 - [TEST_STEP][PASSED] - element3 = driver.findElement(By.xpath("//*[@id='tab-2']/div[2]/a[1]")): null&#xD;
+&#xD;
+2019-08-20 13:51:30 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", element3): null&#xD;
+&#xD;
+2019-08-20 13:51:30 - [TEST_STEP][PASSED] - element3.click(): null&#xD;
+&#xD;
+2019-08-20 13:51:30 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:32 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-3']/div[2]/a[1]")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:33 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:35 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-4']/div[1]/div[1]/span")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:37 - [TEST_STEP][PASSED] - name("send")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:37 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-20 13:51:40 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-20 13:51:41 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-20 13:51:41 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:43 - [TEST_STEP][PASSED] - orderId = id("order_id_data")).getText(): null&#xD;
+&#xD;
+2019-08-20 13:51:43 - [TEST_STEP][PASSED] - out.println("Order ID ==== " + orderId): null&#xD;
+&#xD;
+2019-08-20 13:51:43 - [TEST_STEP][PASSED] - xpath("//*[@id='messageModal']/div/div/i")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:43 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:51:45 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,-1000)"): null&#xD;
+&#xD;
+2019-08-20 13:51:45 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-20 13:51:46 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-20 13:51:46 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-20 13:51:46 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-20 13:51:47 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-20 13:51:47 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order" classname="Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order FAILED.&#xA;Reason:&#xA;java.lang.AssertionError: expected [] but found [[[ChromeDriver: chrome on XP (edf1c178e24aa3558af37c078ed67717)] -&gt; xpath: //*[@id='tab-1']/table/tbody/tr[1]/td[1]]]&#xD;&#xA;&#x9;at org.testng.Assert.fail(Assert.java:93)&#xD;&#xA;&#x9;at org.testng.Assert.failNotEquals(Assert.java:512)&#xD;&#xA;&#x9;at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#xD;&#xA;&#x9;at org.testng.Assert.assertEquals(Assert.java:115)&#xD;&#xA;&#x9;at org.testng.Assert.assertEquals(Assert.java:189)&#xD;&#xA;&#x9;at org.testng.Assert.assertEquals(Assert.java:199)&#xD;&#xA;&#x9;at org.testng.Assert$assertEquals.call(Unknown Source)&#xD;&#xA;&#x9;at New Booking Order.run(New Booking Order:127)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566289234826.run(TempTestSuite1566289234826.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-20 13:51:47 - [TEST_CASE][FAILED] - Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order: Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order FAILED.
+Reason:
+java.lang.AssertionError: expected [] but found [[[ChromeDriver: chrome on XP (edf1c178e24aa3558af37c078ed67717)] -&gt; xpath: //*[@id='tab-1']/table/tbody/tr[1]/td[1]]]&#xD;
+	at org.testng.Assert.fail(Assert.java:93)&#xD;
+	at org.testng.Assert.failNotEquals(Assert.java:512)&#xD;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#xD;
+	at org.testng.Assert.assertEquals(Assert.java:115)&#xD;
+	at org.testng.Assert.assertEquals(Assert.java:189)&#xD;
+	at org.testng.Assert.assertEquals(Assert.java:199)&#xD;
+	at org.testng.Assert$assertEquals.call(Unknown Source)&#xD;
+	at New Booking Order.run(New Booking Order:127)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566289234826.run(TempTestSuite1566289234826.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-20 13:51:48 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-20 13:51:48 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-20 13:51:50 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-20 13:51:51 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-20 13:52:03 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-20 13:52:03 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-20 13:52:03 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-20 13:52:03 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-20 13:52:05 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-20 13:52:05 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-20 13:52:05 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-20 13:52:06 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-20 13:52:09 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-20 13:52:11 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-20 13:52:12 - [TEST_STEP][PASSED] - xpath("/html/body/div[4]/div/div[1]/ul/li[2]/a")).click(): null&#xD;
+&#xD;
+2019-08-20 13:52:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - message = xpath("/html/body/div[6]/div/div[1]/div[1]/div/div/ul/li[1]/a")).getText(): null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - if (message.contains("(0)")): null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - else: null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - itemList = driver.findElements(By.xpath("//*[@id='tab-1']/table/tbody/tr")): null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - out.println("ItemList == " + itemList.size()): null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - for ([i = 0, i &lt; 1, (i++)]): null&#xD;
+&#xD;
+2019-08-20 13:52:19 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[1]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - orderValue = driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[1]")): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[2]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - addressValue = driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[2]")): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[3]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - listingValue = driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[3]")): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[4]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - bookingDate = driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[4]")): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[5]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - statusValue = driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[5]")): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[6]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - paymentStatus = driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[6]")): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='tab-1']/table/tbody/tr[" + i + 1 + "]/td[7]"))): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertNotEquals(orderValue, null, "Order number is null"): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertNotEquals(addressValue, null, "Address is null"): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertNotEquals(listingValue, null, "Listing is null"): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertNotEquals(bookingDate, null, "Booking date is null"): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertNotEquals(statusValue, null, "Status is null"): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertNotEquals(paymentStatus, null, "Payment status is null"): null&#xD;
+&#xD;
+2019-08-20 13:52:20 - [TEST_STEP][PASSED] - Assert.assertEquals(orderValue, orderId): null</system-out>
+            <system-err>2019-08-20 13:51:47 - [TEST_CASE][FAILED] - Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order: Test Cases/Workilo/Bookings/ServiceProvider/New Booking Order FAILED.
+Reason:
+java.lang.AssertionError: expected [] but found [[[ChromeDriver: chrome on XP (edf1c178e24aa3558af37c078ed67717)] -&gt; xpath: //*[@id='tab-1']/table/tbody/tr[1]/td[1]]]&#xD;
+	at org.testng.Assert.fail(Assert.java:93)&#xD;
+	at org.testng.Assert.failNotEquals(Assert.java:512)&#xD;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#xD;
+	at org.testng.Assert.assertEquals(Assert.java:115)&#xD;
+	at org.testng.Assert.assertEquals(Assert.java:189)&#xD;
+	at org.testng.Assert.assertEquals(Assert.java:199)&#xD;
+	at org.testng.Assert$assertEquals.call(Unknown Source)&#xD;
+	at New Booking Order.run(New Booking Order:127)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566289234826.run(TempTestSuite1566289234826.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-08-20 13:50:38 - [TEST_SUITE][INCOMPLETE] - CompleteBookingOrder: null</system-out>
+        <system-err>2019-08-20 13:50:38 - [TEST_SUITE][INCOMPLETE] - CompleteBookingOrder: null</system-err>
+    </testsuite>
+</testsuites>

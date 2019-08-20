@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustomerNewOrder(All)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4805609-3ca2-4069-a944-c9a184d4d1c4</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>fbd81110-bc9a-4ad1-be46-e833ed250e3c</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>742d84cb-2ef2-4acd-89f6-79d9d6195c9a</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

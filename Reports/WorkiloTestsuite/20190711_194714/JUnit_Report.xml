@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="WorkiloTestsuite" time="46" tests="2" failures="0" errors="0">
+    <testsuite name="WorkiloTestsuite" tests="2" failures="0" errors="0" time="46" timestamp="2019-07-11 19:47:18" hostname="DAPL-Asset-70 - DAPL-Asset-70PC" id="Test Suites/WorkiloTestsuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-70\\Katalon Studio\\WorkiloAutomation\\Reports\\WorkiloTestsuite\\20190711_194714"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-70\\Katalon Studio\\WorkiloAutomation\\Reports\\WorkiloTestsuite\\20190711_194714\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-70 - DAPL-Asset-70PC"/>
+            <property name="hostAddress" value="192.168.1.185"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/WorkiloHomepageVerifyTitle" classname="Test Cases/Workilo/WorkiloHomepageVerifyTitle" status="PASSED">
+            <system-out>2019-07-11 19:47:19 - [TEST_CASE][PASSED] - Test Cases/Workilo/WorkiloHomepageVerifyTitle: Test Cases/Workilo/WorkiloHomepageVerifyTitle&#xD;
+&#xD;
+2019-07-11 19:47:19 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-11 19:47:19 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-11 19:47:23 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-11 19:47:25 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-11 19:47:34 - [TEST_STEP][PASSED] - actualTitle = driver.getTitle(): null&#xD;
+&#xD;
+2019-07-11 19:47:34 - [TEST_STEP][PASSED] - expectedTitle = "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo": null&#xD;
+&#xD;
+2019-07-11 19:47:34 - [TEST_STEP][PASSED] - Assert.assertEquals(actualTitle, expectedTitle, "Title didn't match."): null&#xD;
+&#xD;
+2019-07-11 19:47:34 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-11 19:47:37 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/CustomerLoginLogout" classname="Test Cases/Workilo/CustomerLoginLogout" status="PASSED">
+            <system-out>2019-07-11 19:47:38 - [TEST_CASE][PASSED] - Test Cases/Workilo/CustomerLoginLogout: Test Cases/Workilo/CustomerLoginLogout&#xD;
+&#xD;
+2019-07-11 19:47:39 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:\Users\DAPL-Asset-70\Desktop\BrowserDriver\chromedriver.exe"): null&#xD;
+&#xD;
+2019-07-11 19:47:39 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-07-11 19:47:43 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-07-11 19:47:44 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-07-11 19:47:51 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-07-11 19:47:51 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-07-11 19:47:52 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-11 19:47:54 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("shahbaz.dapl@gmail.com"): null&#xD;
+&#xD;
+2019-07-11 19:47:54 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin@123"): null&#xD;
+&#xD;
+2019-07-11 19:47:55 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-07-11 19:47:55 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-07-11 19:47:58 - [TEST_STEP][PASSED] - linkText("Log Out")).click(): null&#xD;
+&#xD;
+2019-07-11 19:48:01 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-07-11 19:48:03 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-11 19:47:18 - [TEST_SUITE][INCOMPLETE] - WorkiloTestsuite: null</system-out>
+        <system-err>2019-07-11 19:47:18 - [TEST_SUITE][INCOMPLETE] - WorkiloTestsuite: null</system-err>
+    </testsuite>
+</testsuites>

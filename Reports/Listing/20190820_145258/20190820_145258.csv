@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Listing,,,,2019-08-20 14:55:21,2019-08-20 14:56:14,53.073s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Listing/Add Listing/AddListing,,,,2019-08-20 14:55:21,2019-08-20 14:56:14,52.640s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 14:55:22,2019-08-20 14:55:22,0.004s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 14:55:22,2019-08-20 14:55:26,3.539s,PASSED
+window().maximize(),,,,2019-08-20 14:55:26,2019-08-20 14:55:27,1.181s,PASSED
+try,,,,2019-08-20 14:55:27,2019-08-20 14:56:12,45.610s,PASSED
+catch (Exception e),,,,2019-08-20 14:56:12,2019-08-20 14:56:14,1.389s,PASSED

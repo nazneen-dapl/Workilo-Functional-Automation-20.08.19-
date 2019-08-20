@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bookings,,,,2019-08-19 19:59:18,2019-08-19 20:00:21,1m - 2.974s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/ServiceProvider/InboxAcceptOrder,,,,2019-08-19 19:59:18,2019-08-19 20:00:21,1m - 2.467s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-19 19:59:19,2019-08-19 19:59:19,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-19 19:59:19,2019-08-19 19:59:23,3.579s,PASSED
+window().maximize(),,,,2019-08-19 19:59:23,2019-08-19 19:59:24,1.176s,PASSED
+try,,,,2019-08-19 19:59:24,2019-08-19 20:00:21,56.641s,PASSED

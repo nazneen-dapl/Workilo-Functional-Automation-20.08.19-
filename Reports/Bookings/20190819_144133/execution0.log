@@ -1,0 +1,2360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897068</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Bookings</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Bookings</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Bookings</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897091</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = DAPL-Asset-180 - DAPL-Asset-180</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">DAPL-Asset-180 - DAPL-Asset-180</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897093</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 8.1 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 8.1 64bit</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897095</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.188</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.188</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897095</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.1.2</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897573</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Workilo/Bookings/ServiceProvider/NewBookingOrder</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Workilo/Bookings/ServiceProvider/NewBookingOrder</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Workilo/Bookings/ServiceProvider/NewBookingOrder</property>
+  <property name="source">C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Test Cases\\Workilo\\Bookings\\ServiceProvider\\NewBookingOrder.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897943</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) chromePath = C:\\\\Users\\\\DAPL-Asset-180\\\\Desktop\\lib\\\\webdriver\\\\chromedriver_win321\\\\chromedriver.exe</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:37</date>
+  <millis>1566205897982</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) screenshots = C:\\Users\\DAPL-Asset-180\\Desktop\\screenshots\\SignUp\\</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:38</date>
+  <millis>1566205898635</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : System.setProperty(\&amp;quot;webdriver.chrome.driver\&amp;quot;, chromePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:38</date>
+  <millis>1566205898666</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : System.setProperty(\&amp;quot;webdriver.chrome.driver\&amp;quot;, chromePath)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:38</date>
+  <millis>1566205898667</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = new org.openqa.selenium.chrome.ChromeDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:42</date>
+  <millis>1566205902526</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = new org.openqa.selenium.chrome.ChromeDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:42</date>
+  <millis>1566205902527</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:43</date>
+  <millis>1566205903720</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : window().maximize()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:43</date>
+  <millis>1566205903722</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:43</date>
+  <millis>1566205903730</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver.get(\&amp;quot;http://workilo.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:53</date>
+  <millis>1566205913474</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver.get(\&amp;quot;http://workilo.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:53</date>
+  <millis>1566205913474</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : timeouts().implicitlyWait(30, SECONDS)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:53</date>
+  <millis>1566205913516</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : timeouts().implicitlyWait(30, SECONDS)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:53</date>
+  <millis>1566205913516</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : linkText(\&amp;quot;Log In\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:53</date>
+  <millis>1566205913755</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : linkText(\&amp;quot;Log In\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:53</date>
+  <millis>1566205913755</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2000)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:55</date>
+  <millis>1566205915764</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2000)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:55</date>
+  <millis>1566205915765</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : id(\&amp;quot;email_login\&amp;quot;)).sendKeys(\&amp;quot;testworkilo@gmail.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:55</date>
+  <millis>1566205915963</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : id(\&amp;quot;email_login\&amp;quot;)).sendKeys(\&amp;quot;testworkilo@gmail.com\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:55</date>
+  <millis>1566205915964</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : id(\&amp;quot;password_login\&amp;quot;)).sendKeys(\&amp;quot;admin#123\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:56</date>
+  <millis>1566205916140</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : id(\&amp;quot;password_login\&amp;quot;)).sendKeys(\&amp;quot;admin#123\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:56</date>
+  <millis>1566205916141</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : //*[@value=&amp;apos;Log in&amp;apos;]\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:56</date>
+  <millis>1566205916281</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : //*[@value=&amp;apos;Log in&amp;apos;]\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:56</date>
+  <millis>1566205916281</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(3000)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-19T14:41:59</date>
+  <millis>1566205919283</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(3000)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:41:59</date>
+  <millis>1566205919285</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : xpath(\&amp;quot;/html/body/header/div/span[1]\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:02</date>
+  <millis>1566205922011</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : xpath(\&amp;quot;/html/body/header/div/span[1]\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:02</date>
+  <millis>1566205922012</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(1000)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:03</date>
+  <millis>1566205923015</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(1000)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:03</date>
+  <millis>1566205923016</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : xpath(\&amp;quot;/html/body/div[4]/div/div[1]/ul/li[2]/a\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:09</date>
+  <millis>1566205929992</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : xpath(\&amp;quot;/html/body/div[4]/div/div[1]/ul/li[2]/a\&amp;quot;)).click()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:09</date>
+  <millis>1566205929993</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(1000)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:10</date>
+  <millis>1566205930994</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(1000)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:10</date>
+  <millis>1566205930995</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : message = xpath(\&amp;quot;/html/body/div[6]/div/div[1]/div[1]/div/div/ul/li[1]/a\&amp;quot;)).getText()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : message = xpath(\&amp;quot;/html/body/div[6]/div/div[1]/div[1]/div/div/ul/li[1]/a\&amp;quot;)).getText()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (message.contains(\&amp;quot;(0)\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (message.contains(\&amp;quot;(0)\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">71</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js = driver</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js = driver</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931072</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : itemList = driver.findElements(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931124</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : itemList = driver.findElements(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931124</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(\&amp;quot;ItemList == \&amp;quot; + itemList.size())</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931139</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(\&amp;quot;ItemList == \&amp;quot; + itemList.size())</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931139</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([i = 0, i &amp;lt; itemList.size(), (i++)])</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931139</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931204</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931204</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : orderValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931236</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : orderValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931236</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931292</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931292</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : addressValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931312</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : addressValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931312</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">88</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931396</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931396</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : listingValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931420</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : listingValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931420</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931457</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931457</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : bookingDate = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">96</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931481</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : bookingDate = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931485</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">98</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931546</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931546</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : statusValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">101</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931572</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : statusValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931573</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">103</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931623</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931623</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentStatus = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931651</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentStatus = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931651</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[7]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931720</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[7]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931720</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(orderValue, null, \&amp;quot;Order number is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">111</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931736</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(orderValue, null, \&amp;quot;Order number is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931736</millis>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(addressValue, null, \&amp;quot;Address is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">113</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931736</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(addressValue, null, \&amp;quot;Address is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931736</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(listingValue, null, \&amp;quot;Listing is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">115</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931736</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(listingValue, null, \&amp;quot;Listing is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931740</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(bookingDate, null, \&amp;quot;Booking date is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">117</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931740</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(bookingDate, null, \&amp;quot;Booking date is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931740</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(statusValue, null, \&amp;quot;Status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931740</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(statusValue, null, \&amp;quot;Status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931740</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(paymentStatus, null, \&amp;quot;Payment status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">121</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931744</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(paymentStatus, null, \&amp;quot;Payment status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931744</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931793</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931793</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : orderValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931809</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : orderValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931809</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931851</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931851</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : addressValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931879</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : addressValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931879</millis>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">88</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931925</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931925</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : listingValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931943</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : listingValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931943</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931983</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:11</date>
+  <millis>1566205931983</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : bookingDate = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">96</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932003</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : bookingDate = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932005</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">98</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932047</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932047</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : statusValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">101</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932067</millis>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : statusValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932067</millis>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">103</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932113</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932113</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentStatus = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932141</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentStatus = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932145</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[7]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932204</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[7]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932204</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(orderValue, null, \&amp;quot;Order number is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">111</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932204</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(orderValue, null, \&amp;quot;Order number is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932204</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(addressValue, null, \&amp;quot;Address is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">113</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(addressValue, null, \&amp;quot;Address is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(listingValue, null, \&amp;quot;Listing is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">115</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(listingValue, null, \&amp;quot;Listing is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(bookingDate, null, \&amp;quot;Booking date is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">117</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(bookingDate, null, \&amp;quot;Booking date is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(statusValue, null, \&amp;quot;Status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932208</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(statusValue, null, \&amp;quot;Status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932212</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(paymentStatus, null, \&amp;quot;Payment status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">121</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932212</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(paymentStatus, null, \&amp;quot;Payment status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932212</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932256</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932256</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : orderValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932272</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : orderValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[1]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932272</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932323</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932323</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : addressValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932339</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : addressValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[2]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932339</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">88</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932376</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932376</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : listingValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932392</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : listingValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[3]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932392</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932445</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932445</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : bookingDate = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">96</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932461</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : bookingDate = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[4]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932461</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">98</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932508</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932508</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : statusValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">101</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932531</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : statusValue = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[5]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932531</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">103</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932575</millis>
+  <sequence>150</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932575</millis>
+  <sequence>151</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentStatus = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932591</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentStatus = driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[6]\&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932591</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[7]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932637</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : js.executeScript(\&amp;quot;arguments[0].style.border=&amp;apos;3px solid red&amp;apos;\&amp;quot;, driver.findElement(By.xpath(\&amp;quot;//*[@id=&amp;apos;tab-1&amp;apos;]/table/tbody/tr[\&amp;quot; + i + 1 + \&amp;quot;]/td[7]\&amp;quot;)))</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932637</millis>
+  <sequence>155</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(orderValue, null, \&amp;quot;Order number is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">111</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932641</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(orderValue, null, \&amp;quot;Order number is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932641</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(addressValue, null, \&amp;quot;Address is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">113</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932641</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(addressValue, null, \&amp;quot;Address is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932641</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(listingValue, null, \&amp;quot;Listing is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">115</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932645</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(listingValue, null, \&amp;quot;Listing is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932645</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(bookingDate, null, \&amp;quot;Booking date is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">117</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932645</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(bookingDate, null, \&amp;quot;Booking date is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932645</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(statusValue, null, \&amp;quot;Status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932645</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(statusValue, null, \&amp;quot;Status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932649</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertNotEquals(paymentStatus, null, \&amp;quot;Payment status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">121</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932649</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertNotEquals(paymentStatus, null, \&amp;quot;Payment status is null\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932649</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([i = 0, i &amp;lt; itemList.size(), (i++)])</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932649</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : xpath(\&amp;quot;/html/body/header/div/span[1]\&amp;quot;)).click()</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">124</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932775</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : xpath(\&amp;quot;/html/body/header/div/span[1]\&amp;quot;)).click()</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:12</date>
+  <millis>1566205932775</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2000)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">130</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:14</date>
+  <millis>1566205934782</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2000)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:14</date>
+  <millis>1566205934782</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : linkText(\&amp;quot;Sign Out\&amp;quot;)).click()</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">132</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:25</date>
+  <millis>1566205945150</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : linkText(\&amp;quot;Sign Out\&amp;quot;)).click()</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:25</date>
+  <millis>1566205945151</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(1000)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">134</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:26</date>
+  <millis>1566205946153</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(1000)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:26</date>
+  <millis>1566205946154</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : action = new org.openqa.selenium.interactions.Actions(driver)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">136</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:26</date>
+  <millis>1566205946172</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : action = new org.openqa.selenium.interactions.Actions(driver)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:26</date>
+  <millis>1566205946172</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : build().perform()</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">138</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:26</date>
+  <millis>1566205946241</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : build().perform()</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:26</date>
+  <millis>1566205946241</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2000)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">140</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948243</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2000)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948243</millis>
+  <sequence>182</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver.quit()</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">142</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948933</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver.quit()</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948933</millis>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948934</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948934</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Workilo/Bookings/ServiceProvider/NewBookingOrder</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948934</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Workilo/Bookings/ServiceProvider/NewBookingOrder</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:28</date>
+  <millis>1566205948934</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:29</date>
+  <millis>1566205949482</millis>
+  <sequence>564</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_144133...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:29</date>
+  <millis>1566205949979</millis>
+  <sequence>565</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:29</date>
+  <millis>1566205949981</millis>
+  <sequence>566</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_144133...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:30</date>
+  <millis>1566205950018</millis>
+  <sequence>567</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:30</date>
+  <millis>1566205950019</millis>
+  <sequence>568</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_144133...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:30</date>
+  <millis>1566205950289</millis>
+  <sequence>569</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:30</date>
+  <millis>1566205950290</millis>
+  <sequence>570</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating PDF report folder at: C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_144133...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:37</date>
+  <millis>1566205957058</millis>
+  <sequence>571</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PDF report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:37</date>
+  <millis>1566205957059</millis>
+  <sequence>573</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-19T14:42:37</date>
+  <millis>1566205957138</millis>
+  <sequence>574</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Bookings</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

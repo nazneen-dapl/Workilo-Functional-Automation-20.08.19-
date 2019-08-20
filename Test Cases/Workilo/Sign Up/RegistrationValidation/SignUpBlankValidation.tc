@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpBlankValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23e23519-273c-441f-9e7d-452ad01b242c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>d6e50168-f926-4412-a116-1d0115ae7d7d</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>cfd40bd6-cc6a-43b6-b490-1ceb7db5cd6d</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BlockUnblockDateByServiceProvider</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50ab10ab-2ad4-43ef-bf4b-5dbf58323cca</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>4c3ff6db-8941-45a8-950d-823e1e5d153d</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>a27cdf2d-f0c0-4243-95a6-bcc6bb8f2ecd</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CustomerSignUp,,,,2019-08-20 15:22:52,2019-08-20 15:23:16,24.614s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/RegistrationValidation/InvalidPwdLogin,,,,2019-08-20 15:22:52,2019-08-20 15:23:16,24.117s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-20 15:22:53,2019-08-20 15:22:53,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-20 15:22:53,2019-08-20 15:22:57,3.523s,PASSED
+window().maximize(),,,,2019-08-20 15:22:57,2019-08-20 15:22:58,1.160s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-20 15:22:58,2019-08-20 15:23:08,10.016s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-20 15:23:08,2019-08-20 15:23:08,0.021s,PASSED
+try,,,,2019-08-20 15:23:08,2019-08-20 15:23:15,7.706s,PASSED
+driver.quit(),,,,2019-08-20 15:23:15,2019-08-20 15:23:16,0.714s,PASSED

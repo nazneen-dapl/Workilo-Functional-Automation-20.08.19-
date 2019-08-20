@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CancelOrder(All)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c9cf260-f9c7-4716-a056-f8c7f3b682d7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>3d42577b-3904-4865-b8b6-2207b167150c</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>c9b13e0b-3c20-492e-a883-ecfa02d592b8</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

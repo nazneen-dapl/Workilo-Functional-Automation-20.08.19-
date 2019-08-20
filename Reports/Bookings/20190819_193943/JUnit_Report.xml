@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Bookings" time="79" tests="1" failures="0" errors="0">
+    <testsuite name="Bookings" tests="1" failures="0" errors="0" time="79" timestamp="2019-08-19 19:39:47" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Bookings">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_193943"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Bookings\\20190819_193943\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode" classname="Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode" status="PASSED">
+            <system-out>2019-08-19 19:39:47 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode: Test Cases/Workilo/Bookings/Customer/PlaceOrderBySearchTestMode&#xD;
+&#xD;
+2019-08-19 19:39:48 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-19 19:39:48 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-19 19:39:52 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-19 19:39:53 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-19 19:40:04 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-19 19:40:05 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-19 19:40:05 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:05 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:07 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("nabin@digitalaptech.com"): null&#xD;
+&#xD;
+2019-08-19 19:40:07 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-19 19:40:07 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:07 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 19:40:10 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-19 19:40:10 - [TEST_STEP][PASSED] - id("search-input-desk")).sendKeys("Home Appliances"): null&#xD;
+&#xD;
+2019-08-19 19:40:18 - [TEST_STEP][PASSED] - xpath("//*[@id='select_list']/button")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:21 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-19 19:40:21 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:23 - [TEST_STEP][PASSED] - xpath("//*[@id='demo']/div/div/div[1]")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:27 - [TEST_STEP][PASSED] - element2 = driver.findElement(By.xpath(".//*[text()='book now']")): null&#xD;
+&#xD;
+2019-08-19 19:40:27 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-19 19:40:27 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:29 - [TEST_STEP][PASSED] - element2.click(): null&#xD;
+&#xD;
+2019-08-19 19:40:29 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 19:40:32 - [TEST_STEP][PASSED] - id("step1")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:32 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 19:40:35 - [TEST_STEP][PASSED] - id("billing_address1")).sendKeys("446 Plymouth St. Brooklyn"): null&#xD;
+&#xD;
+2019-08-19 19:40:35 - [TEST_STEP][PASSED] - id("billing_city")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:37 - [TEST_STEP][PASSED] - element3 = driver.findElement(By.xpath("//*[@id='tab-2']/div[2]/a[1]")): null&#xD;
+&#xD;
+2019-08-19 19:40:38 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", element3): null&#xD;
+&#xD;
+2019-08-19 19:40:38 - [TEST_STEP][PASSED] - element3.click(): null&#xD;
+&#xD;
+2019-08-19 19:40:38 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:40 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-3']/div[2]/a[1]")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:40 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:42 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-4']/div[1]/div[1]/span")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:42 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:44 - [TEST_STEP][PASSED] - name("send")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:44 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-19 19:40:47 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-19 19:40:48 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-19 19:40:48 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:50 - [TEST_STEP][PASSED] - xpath("//*[@id='messageModal']/div/div/i")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:50 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:52 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,-1000)"): null&#xD;
+&#xD;
+2019-08-19 19:40:52 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-19 19:40:53 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-19 19:40:53 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-19 19:40:55 - [TEST_STEP][PASSED] - linkText("Sign Out")).click(): null&#xD;
+&#xD;
+2019-08-19 19:41:03 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-19 19:41:04 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-08-19 19:41:04 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-08-19 19:41:04 - [TEST_STEP][PASSED] - Thread.sleep(2000): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-19 19:39:47 - [TEST_SUITE][INCOMPLETE] - Bookings: null</system-out>
+        <system-err>2019-08-19 19:39:47 - [TEST_SUITE][INCOMPLETE] - Bookings: null</system-err>
+    </testsuite>
+</testsuites>

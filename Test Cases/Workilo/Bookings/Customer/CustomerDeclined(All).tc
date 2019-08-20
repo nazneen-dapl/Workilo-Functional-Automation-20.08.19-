@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustomerDeclined(All)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c1a92ca-80b2-4ac6-b550-79516d20ec78</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>d0105cbe-ff79-425a-a9b0-21444606efc8</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>b292d13e-257e-4f59-b5f0-42afa11e883b</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

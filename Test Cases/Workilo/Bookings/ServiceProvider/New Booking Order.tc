@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Booking Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c6df53a-95cd-4eb7-96cd-9780377d02d1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>09f041f2-0973-4881-a2df-e56f3e3e79a4</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>d3dc0808-22ed-4034-bbd1-7630291b4efb</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.orderId</defaultValue>
+      <description></description>
+      <id>b05fc562-9327-4190-9100-404cc595132a</id>
+      <masked>false</masked>
+      <name>orderId</name>
+   </variable>
+</TestCaseEntity>

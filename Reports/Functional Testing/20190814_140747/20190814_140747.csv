@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional Testing,,,,2019-08-14 14:07:51,2019-08-14 14:08:43,52.591s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign Up/ServProvSignUp,,,,2019-08-14 14:07:51,2019-08-14 14:08:43,51.989s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-14 14:07:52,2019-08-14 14:07:52,0.008s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-14 14:07:52,2019-08-14 14:07:58,5.446s,PASSED
+window().maximize(),,,,2019-08-14 14:07:58,2019-08-14 14:07:59,1.567s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-14 14:07:59,2019-08-14 14:08:11,11.768s,PASSED
+"timeouts().implicitlyWait(30, SECONDS)",,,,2019-08-14 14:08:11,2019-08-14 14:08:11,0.028s,PASSED
+"linkText(""Sign Up"")).click()",,,,2019-08-14 14:08:11,2019-08-14 14:08:11,0.325s,PASSED
+Thread.sleep(2000),,,,2019-08-14 14:08:11,2019-08-14 14:08:13,2.015s,PASSED
+"xpath(""//*[text()='Worker']"")).click()",,,,2019-08-14 14:08:13,2019-08-14 14:08:43,30.119s,PASSED
