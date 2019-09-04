@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Listing" time="109" tests="1" failures="0" errors="1">
+    <testsuite name="Listing" tests="1" failures="0" errors="1" time="109" timestamp="2019-08-23 16:09:59" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Listing">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Listing\\20190823_160955"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Listing\\20190823_160955\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Listing/CreateShopNewUser/CreateShop" classname="Test Cases/Workilo/Listing/CreateShopNewUser/CreateShop" status="PASSED">
+            <system-out>2019-08-23 16:10:00 - [TEST_CASE][PASSED] - Test Cases/Workilo/Listing/CreateShopNewUser/CreateShop: Test Cases/Workilo/Listing/CreateShopNewUser/CreateShop&#xD;
+&#xD;
+2019-08-23 16:10:01 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-23 16:10:01 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-23 16:10:05 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-23 16:10:06 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-23 16:10:14 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-23 16:10:14 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-23 16:10:14 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-23 16:10:14 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-23 16:10:15 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:10:17 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("worker@gmail.com"): null&#xD;
+&#xD;
+2019-08-23 16:10:17 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-23 16:10:17 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-23 16:10:17 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:10:20 - [TEST_STEP][PASSED] - id("imgInp")).sendKeys(imagePath): null&#xD;
+&#xD;
+2019-08-23 16:10:20 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:10:23 - [TEST_STEP][PASSED] - name("shop_name")).clear(): null&#xD;
+&#xD;
+2019-08-23 16:10:24 - [TEST_STEP][PASSED] - name("shop_name")).sendKeys("My Shop"): null&#xD;
+&#xD;
+2019-08-23 16:10:24 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:10:26 - [TEST_STEP][PASSED] - name("contact")).clear(): null&#xD;
+&#xD;
+2019-08-23 16:10:26 - [TEST_STEP][PASSED] - name("contact")).sendKeys("7445522196"): null&#xD;
+&#xD;
+2019-08-23 16:10:26 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - name("address")).clear(): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - name("address")).sendKeys("Brooklyn"): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - name("user_zip")).clear(): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - name("user_zip")).sendKeys("10055"): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - name("city")).clear(): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - name("city")).sendKeys("Brooklyn"): null&#xD;
+&#xD;
+2019-08-23 16:10:28 - [TEST_STEP][PASSED] - xpath("//*[@id='addshop']/div/div/ul/li[8]/input")).click(): null&#xD;
+&#xD;
+2019-08-23 16:10:31 - [TEST_STEP][PASSED] - alertMesssage = driver.findElement(By.xpath("/html/body/div[5]/div/div/div/div[1]")): null&#xD;
+&#xD;
+2019-08-23 16:10:31 - [TEST_STEP][PASSED] - Thread.sleep(5000): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", alertMesssage): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - name("title")).sendKeys("My Home Appliances"): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - category = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.id(category))): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - category.selectByValue("80"): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - xpath("//*[@id='tags']/input[1]")).sendKeys("Repairing"): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-08-23 16:10:36 - [TEST_STEP][PASSED] - xpath("//*[@id='tags']/input[1]")).sendKeys("Installing"): null&#xD;
+&#xD;
+2019-08-23 16:10:37 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-08-23 16:10:37 - [TEST_STEP][PASSED] - description = "We delivered our service at very low cost. We provide home renovation repairing and installing new things.": null&#xD;
+&#xD;
+2019-08-23 16:10:37 - [TEST_STEP][PASSED] - id("description")).sendKeys(description): null&#xD;
+&#xD;
+2019-08-23 16:10:37 - [TEST_STEP][PASSED] - id("total_price")).sendKeys("1"): null&#xD;
+&#xD;
+2019-08-23 16:10:37 - [TEST_STEP][PASSED] - id("editor2")).sendKeys("We provide all the materials which is needed at the time of installation or repairing."): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - travel = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.id(miles_travel))): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - travel.selectByValue("5"): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - id("where_located")).sendKeys("Brooklyn"): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - id("manyhours")).sendKeys("8"): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - name("about_listing")).sendKeys("test@gmail.com"): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - id("img_up_1")).sendKeys(imagePath): null&#xD;
+&#xD;
+2019-08-23 16:10:38 - [TEST_STEP][PASSED] - Thread.sleep(10000): null&#xD;
+&#xD;
+2019-08-23 16:10:48 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-23 16:10:48 - [TEST_STEP][PASSED] - xpath("//*[@id='addlist']/div[2]/input[2]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:10:50 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-23 16:10:50 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:10:51 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:10:53 - [TEST_STEP][PASSED] - linkText("Sign Out")).click(): null&#xD;
+&#xD;
+2019-08-23 16:10:56 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:10:58 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-08-23 16:10:58 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:11:00 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/Listing/Edit Listing/EditListing" classname="Test Cases/Workilo/Listing/Edit Listing/EditListing" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Listing/Edit Listing/EditListing FAILED.&#xA;Reason:&#xA;groovy.lang.MissingPropertyException: No such property: OutputType for class: Script1563542541129&#xD;&#xA;&#x9;at EditListing.run(EditListing:100)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566556795650.run(TempTestSuite1566556795650.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-23 16:11:00 - [TEST_CASE][ERROR] - Test Cases/Workilo/Listing/Edit Listing/EditListing: Test Cases/Workilo/Listing/Edit Listing/EditListing FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: OutputType for class: Script1563542541129&#xD;
+	at EditListing.run(EditListing:100)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566556795650.run(TempTestSuite1566556795650.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-23 16:11:01 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-23 16:11:01 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-23 16:11:03 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-23 16:11:04 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-23 16:11:13 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-23 16:11:13 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-23 16:11:13 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-23 16:11:13 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:11:15 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-23 16:11:16 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-23 16:11:16 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-23 16:11:16 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:11:19 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:11:49 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-23 16:11:49 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null</system-out>
+            <system-err>2019-08-23 16:11:00 - [TEST_CASE][ERROR] - Test Cases/Workilo/Listing/Edit Listing/EditListing: Test Cases/Workilo/Listing/Edit Listing/EditListing FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: OutputType for class: Script1563542541129&#xD;
+	at EditListing.run(EditListing:100)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566556795650.run(TempTestSuite1566556795650.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-08-23 16:09:59 - [TEST_SUITE][INCOMPLETE] - Listing: null</system-out>
+        <system-err>2019-08-23 16:09:59 - [TEST_SUITE][INCOMPLETE] - Listing: null</system-err>
+    </testsuite>
+</testsuites>

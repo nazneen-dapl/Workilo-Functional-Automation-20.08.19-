@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Listing Already Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>125357c4-9057-4db2-ac1f-d2f40350aae3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>5b67b578-2c55-42aa-a166-527bf2609197</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+</TestCaseEntity>

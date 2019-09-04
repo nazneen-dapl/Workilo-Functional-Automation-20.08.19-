@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidImageListing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e33c863d-6229-49d7-9bc8-a9bad9dc2260</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>ed7652e8-0493-4749-8451-8caf83d653c9</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>0a70f2b7-616e-4421-8956-6ed7d147be04</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

@@ -166,5 +166,6 @@ catch (Exception e) {
 
 	System.out.println(e.getMessage())
 
-	driver.quit()
+	
 }
+driver.quit()

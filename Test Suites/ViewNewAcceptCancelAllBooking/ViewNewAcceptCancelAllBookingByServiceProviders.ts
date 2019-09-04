@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>368ad5c9-b2df-418c-8709-340e47b53067</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/NewBookingOrder(All)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>93a80df6-845b-4bf2-9278-0b74859d083e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/AcceptedOrder(All)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>9d4ef603-e26c-445d-8efd-9a51734c7283</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/ALLorder</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>f1064eda-612c-4bd5-809b-bd46313ade72</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/InboxVerifyMessageDetail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -103,7 +103,7 @@
    <testCaseLink>
       <guid>2f37bd77-67f6-430e-9b18-2660b832efaf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/OrderDeclined(All)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

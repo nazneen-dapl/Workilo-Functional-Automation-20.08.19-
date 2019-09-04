@@ -134,11 +134,11 @@ if (message.contains("(0)")) {
 		Assert.assertNotEquals(paymentValue, null,"Payment status is null")
     }
 
-     //driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+     driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 	
 	//Changes here
 	
-	driver.findElement(By.xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click()
+	//driver.findElement(By.xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click()
 
     Thread.sleep(2000)
 

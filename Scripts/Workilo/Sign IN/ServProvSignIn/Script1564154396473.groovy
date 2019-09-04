@@ -35,7 +35,7 @@ driver.findElement(By.xpath('.//*[@value=\'Log in\']')).click()
 
 Thread.sleep(3000)
 
-driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 
 // Changes here
 

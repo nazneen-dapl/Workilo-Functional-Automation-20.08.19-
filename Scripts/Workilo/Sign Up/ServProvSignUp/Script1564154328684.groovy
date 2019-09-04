@@ -23,7 +23,7 @@ driver.findElement(By.xpath("//a[@class='account_type_switch service_provider_ta
 
 Thread.sleep(2000)
 
-driver.findElement(By.id('email')).sendKeys('test1@gmail.com')
+driver.findElement(By.id('email')).sendKeys('testworkilo@gmail.com')
 
 driver.findElement(By.id('firstName')).sendKeys('Workilo')
 

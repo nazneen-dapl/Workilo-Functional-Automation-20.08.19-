@@ -29,13 +29,13 @@ Thread.sleep(2000)
 
 driver.findElement(By.id('email_login')).sendKeys('testworkilo@gmail.com')
 
-driver.findElement(By.id('password_login')).sendKeys('admin@123')
+driver.findElement(By.id('password_login')).sendKeys('admin#123')
 
 driver.findElement(By.xpath('.//*[@value=\'Log in\']')).click()
 
 Thread.sleep(3000)
 
-driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 
 //Changes here
 
@@ -56,11 +56,11 @@ driver.findElement(By.xpath('/html/body/div[6]/div/div[1]/div[1]/div/div/ul/li[2
 String message = driver.findElement(By.xpath('/html/body/div[6]/div/div[1]/div[1]/div/div/ul/li[2]/a')).getText()
 
 if (message.contains('(0)')) {
-	//driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+	driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 	
 	//Changes here
 	
-	driver.findElement(By.xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click()
+	//driver.findElement(By.xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click()
 
 	Thread.sleep(2000)
 
@@ -151,11 +151,11 @@ if (message.contains('(0)')) {
 	
 	Thread.sleep(2000)
 
-	//driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+	driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 	
 	//Changes here
 	
-	driver.findElement(By.xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click()
+	//driver.findElement(By.xpath("/html/body/header/div/div[2]/ul/li[1]/a")).click()
 
 	Thread.sleep(2000)
 

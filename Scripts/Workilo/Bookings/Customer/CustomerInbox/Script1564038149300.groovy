@@ -38,11 +38,11 @@ Thread.sleep(1000)
 
 driver.findElement(By.xpath('/html/body/div[4]/div/div[1]/ul/li[1]/a')).click()
 
-Thread.sleep(1000)
-
-driver.findElement(By.xpath('.//*[text()=\'Booking Date\']')).click()
-
-driver.findElement(By.xpath('.//*[text()=\'Booking Date\']')).click()
+//Thread.sleep(1000)
+//
+//driver.findElement(By.xpath('.//*[text()=\'Booking Date\']')).click()
+//
+//driver.findElement(By.xpath('.//*[text()=\'Booking Date\']')).click()
 
 Thread.sleep(2000)
 
