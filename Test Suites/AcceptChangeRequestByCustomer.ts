@@ -95,6 +95,42 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>fd0c3846-0682-4289-b617-3c39fbbd4a9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/InboxAcceptOrder</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>844fff69-cc51-4434-9368-b67cf9ea7a03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac6f74c6-83b4-4a25-8593-725b12b7c7fa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>492581e9-31c8-4dd2-8a01-f4179d6ef672</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76838a76-16a0-429e-80a8-586fc8e5a42e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b3394817-7f84-4164-847e-12a4352b6ff8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>adc0cf56-ba55-4205-9469-d4da7705c568</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Manage Shop" time="102" tests="2" failures="0" errors="0">
+    <testsuite name="Manage Shop" tests="2" failures="0" errors="0" time="102" timestamp="2019-08-23 16:21:16" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Manage Shop">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Manage Shop\\20190823_162113"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Manage Shop\\20190823_162113\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/ManageShop/ShopInfo" classname="Test Cases/Workilo/ManageShop/ShopInfo" status="PASSED">
+            <system-out>2019-08-23 16:21:17 - [TEST_CASE][PASSED] - Test Cases/Workilo/ManageShop/ShopInfo: Test Cases/Workilo/ManageShop/ShopInfo&#xD;
+&#xD;
+2019-08-23 16:21:18 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-23 16:21:18 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-23 16:21:22 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-23 16:21:23 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-23 16:21:23 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-23 16:21:32 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-23 16:21:32 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-23 16:21:32 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:21:34 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-23 16:21:34 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin@123"): null&#xD;
+&#xD;
+2019-08-23 16:21:35 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-23 16:21:35 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:21:38 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:22:08 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-23 16:22:08 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-23 16:22:09 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-23 16:22:09 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-23 16:22:09 - [TEST_STEP][PASSED] - driver.quit(): null&#xD;
+&#xD;
+2019-08-23 16:22:09 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Workilo/ManageShop/ShopStats" classname="Test Cases/Workilo/ManageShop/ShopStats" status="PASSED">
+            <system-out>2019-08-23 16:22:09 - [TEST_CASE][PASSED] - Test Cases/Workilo/ManageShop/ShopStats: Test Cases/Workilo/ManageShop/ShopStats&#xD;
+&#xD;
+2019-08-23 16:22:10 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-23 16:22:10 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-23 16:22:12 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-23 16:22:13 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-23 16:22:13 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-23 16:22:21 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-23 16:22:21 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-23 16:22:22 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:22:24 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-23 16:22:24 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin@123"): null&#xD;
+&#xD;
+2019-08-23 16:22:24 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-23 16:22:24 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:22:27 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:22:57 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-23 16:22:57 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null&#xD;
+&#xD;
+2019-08-23 16:22:58 - [TEST_STEP][PASSED] - FileUtils.copyFile(src, new java.io.File(((screenshots + java.lang.System.currentTimeMillis()) + .png))): null&#xD;
+&#xD;
+2019-08-23 16:22:58 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null&#xD;
+&#xD;
+2019-08-23 16:22:58 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-23 16:21:16 - [TEST_SUITE][INCOMPLETE] - Manage Shop: null</system-out>
+        <system-err>2019-08-23 16:21:16 - [TEST_SUITE][INCOMPLETE] - Manage Shop: null</system-err>
+    </testsuite>
+</testsuites>

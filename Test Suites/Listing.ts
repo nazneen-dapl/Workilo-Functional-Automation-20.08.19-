@@ -13,8 +13,8 @@
    <testCaseLink>
       <guid>c94cdfbd-ae11-4bd4-a64c-cdecf9f095e0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Workilo/Listing/Add Listing/AddListing</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workilo/Listing/CreateShopNewUser/CreateShop</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,6 +26,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>695d6e69-d080-417b-88f8-589bfaa61a0b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d3187e5-9966-435d-ab05-65bed1a55bec</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

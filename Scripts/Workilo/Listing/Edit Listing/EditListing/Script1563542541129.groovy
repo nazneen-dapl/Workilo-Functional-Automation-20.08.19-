@@ -30,7 +30,7 @@ driver.findElement(By.xpath('.//*[@value=\'Log in\']')).click()
 
 Thread.sleep(3000)
 
-driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 
 //Changes here
 
@@ -80,7 +80,7 @@ js.executeScript('window.scrollBy(0,500)')
 
 Actions action = new Actions(driver)
 
-driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 
 //Changes here
 

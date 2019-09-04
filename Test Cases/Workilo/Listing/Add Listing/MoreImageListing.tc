@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MoreImageListing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a18f6484-2927-4f97-ba91-b9873eaf5919</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.chromePath</defaultValue>
+      <description></description>
+      <id>ebd86592-2ae9-4155-837f-f98db6ec267b</id>
+      <masked>false</masked>
+      <name>chromePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.imagePath</defaultValue>
+      <description></description>
+      <id>b808e52a-46d9-4dbb-a06d-46e354ba1178</id>
+      <masked>false</masked>
+      <name>imagePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.screenshots</defaultValue>
+      <description></description>
+      <id>afccde0b-e37a-4853-8155-a3af725ab234</id>
+      <masked>false</masked>
+      <name>screenshots</name>
+   </variable>
+</TestCaseEntity>

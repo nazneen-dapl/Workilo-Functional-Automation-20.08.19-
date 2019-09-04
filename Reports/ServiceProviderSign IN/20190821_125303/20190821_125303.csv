@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ServiceProviderSign IN,,,,2019-08-21 12:53:27,2019-08-21 12:54:19,51.612s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Sign IN/ServProvSignIn,,,,2019-08-21 12:53:28,2019-08-21 12:54:19,51.153s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-21 12:53:29,2019-08-21 12:53:29,0.007s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-21 12:53:29,2019-08-21 12:53:33,4.093s,PASSED
+window().maximize(),,,,2019-08-21 12:53:33,2019-08-21 12:53:34,1.163s,PASSED
+try,,,,2019-08-21 12:53:34,2019-08-21 12:54:17,43.148s,PASSED
+catch (Exception e),,,,2019-08-21 12:54:17,2019-08-21 12:54:18,0.565s,PASSED
+driver.quit(),,,,2019-08-21 12:54:18,2019-08-21 12:54:19,1.137s,PASSED

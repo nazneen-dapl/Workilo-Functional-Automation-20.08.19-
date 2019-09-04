@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manage Shop,,,,2019-08-23 16:29:21,2019-08-23 16:30:13,51.795s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopInfo,,,,2019-08-23 16:29:22,2019-08-23 16:30:13,51.245s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-23 16:29:23,2019-08-23 16:29:23,0.004s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-23 16:29:23,2019-08-23 16:29:26,3.626s,PASSED
+window().maximize(),,,,2019-08-23 16:29:26,2019-08-23 16:29:28,1.194s,PASSED
+try,,,,2019-08-23 16:29:28,2019-08-23 16:30:11,43.557s,PASSED
+catch (Exception e),,,,2019-08-23 16:30:11,2019-08-23 16:30:12,0.964s,PASSED
+driver.quit(),,,,2019-08-23 16:30:12,2019-08-23 16:30:13,0.869s,PASSED
+driver.quit(),,,,2019-08-23 16:30:13,2019-08-23 16:30:13,0.000s,PASSED

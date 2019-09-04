@@ -27,13 +27,13 @@ Thread.sleep(2000)
 
 driver.findElement(By.id('email_login')).sendKeys('testworkilo@gmail.com')
 
-driver.findElement(By.id('password_login')).sendKeys('admin@123')
+driver.findElement(By.id('password_login')).sendKeys('admin#123')
 
 driver.findElement(By.xpath('.//*[@value=\'Log in\']')).click()
 
 Thread.sleep(3000)
 
-driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 
 //Changes here
 
@@ -83,7 +83,7 @@ js.executeScript('arguments[0].style.border=\'3px solid red\'', driver.findEleme
 
 Thread.sleep(1000)
 
-driver.findElement(By.xpath('/html/body/header/div/span[1]')).click()
+driver.findElement(By.xpath('/html/body/header/div/span[3]')).click()
 
 //Changes here
 
@@ -107,5 +107,4 @@ FileUtils.copyFile(src, new File((screenshots +	System.currentTimeMillis()) + '.
 System.out.println(e.getMessage())
 
 }
-driver.quit()
 driver.quit()

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="InValid Booking" time="64" tests="1" failures="0" errors="0">
+    <testsuite name="InValid Booking" tests="1" failures="0" errors="0" time="64" timestamp="2019-08-23 16:04:09" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/InValid Booking">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\InValid Booking\\20190823_160405"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\InValid Booking\\20190823_160405\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Bookings/Customer/BlankpaymentValidation" classname="Test Cases/Workilo/Bookings/Customer/BlankpaymentValidation" status="PASSED">
+            <system-out>2019-08-23 16:04:10 - [TEST_CASE][PASSED] - Test Cases/Workilo/Bookings/Customer/BlankpaymentValidation: Test Cases/Workilo/Bookings/Customer/BlankpaymentValidation&#xD;
+&#xD;
+2019-08-23 16:04:11 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-23 16:04:11 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-23 16:04:16 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-23 16:04:17 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-23 16:04:25 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-23 16:04:25 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-23 16:04:25 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:25 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:27 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("nabin@digitalaptech.com"): null&#xD;
+&#xD;
+2019-08-23 16:04:28 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-23 16:04:28 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:28 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:04:31 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-23 16:04:31 - [TEST_STEP][PASSED] - id("search-input-desk")).sendKeys("Home Appliances"): null&#xD;
+&#xD;
+2019-08-23 16:04:32 - [TEST_STEP][PASSED] - xpath("//*[@id='select_list']/button")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:34 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-23 16:04:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:37 - [TEST_STEP][PASSED] - xpath("//*[@id='demo']/div/div/div[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:40 - [TEST_STEP][PASSED] - element2 = driver.findElement(By.xpath(".//*[text()='book now']")): null&#xD;
+&#xD;
+2019-08-23 16:04:40 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-23 16:04:40 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:42 - [TEST_STEP][PASSED] - element2.click(): null&#xD;
+&#xD;
+2019-08-23 16:04:42 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:04:45 - [TEST_STEP][PASSED] - id("step1")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:45 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:04:48 - [TEST_STEP][PASSED] - id("billing_address1")).sendKeys("446 Plymouth St. Brooklyn"): null&#xD;
+&#xD;
+2019-08-23 16:04:49 - [TEST_STEP][PASSED] - id("billing_city")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:49 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:51 - [TEST_STEP][PASSED] - element3 = driver.findElement(By.xpath("//*[@id='tab-2']/div[2]/a[1]")): null&#xD;
+&#xD;
+2019-08-23 16:04:51 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", element3): null&#xD;
+&#xD;
+2019-08-23 16:04:51 - [TEST_STEP][PASSED] - element3.click(): null&#xD;
+&#xD;
+2019-08-23 16:04:51 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:53 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-3']/div[2]/a[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:53 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:55 - [TEST_STEP][PASSED] - xpath("//*[@id='tab-4']/div[1]/div[1]/span")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:55 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:04:57 - [TEST_STEP][PASSED] - id("change_card")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:58 - [TEST_STEP][PASSED] - name("send")).click(): null&#xD;
+&#xD;
+2019-08-23 16:04:58 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:05:00 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='open_form_card']/div[1]/div/div[1]/small"))): null&#xD;
+&#xD;
+2019-08-23 16:05:00 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='open_form_card']/div[1]/div/div[2]/div/small"))): null&#xD;
+&#xD;
+2019-08-23 16:05:00 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='open_form_card']/div[2]/div/div[1]/small"))): null&#xD;
+&#xD;
+2019-08-23 16:05:00 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].style.border='3px solid red'", driver.findElement(By.xpath("//*[@id='open_form_card']/div[2]/div/div[2]/small"))): null&#xD;
+&#xD;
+2019-08-23 16:05:00 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-23 16:05:01 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,-1000)"): null&#xD;
+&#xD;
+2019-08-23 16:05:01 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-23 16:05:02 - [TEST_STEP][PASSED] - xpath("//*[@id='myModal']/div/div/i")).click(): null&#xD;
+&#xD;
+2019-08-23 16:05:02 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:05:04 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:05:04 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:05:06 - [TEST_STEP][PASSED] - linkText("Sign Out")).click(): null&#xD;
+&#xD;
+2019-08-23 16:05:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-23 16:05:11 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-08-23 16:05:11 - [TEST_STEP][PASSED] - build().perform(): null&#xD;
+&#xD;
+2019-08-23 16:05:11 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:05:13 - [TEST_STEP][PASSED] - driver.quit(): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-23 16:04:09 - [TEST_SUITE][INCOMPLETE] - InValid Booking: null</system-out>
+        <system-err>2019-08-23 16:04:09 - [TEST_SUITE][INCOMPLETE] - InValid Booking: null</system-err>
+    </testsuite>
+</testsuites>

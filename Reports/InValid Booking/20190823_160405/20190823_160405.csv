@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+InValid Booking,,,,2019-08-23 16:04:09,2019-08-23 16:05:14,1m - 4.609s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/Bookings/Customer/BlankpaymentValidation,,,,2019-08-23 16:04:10,2019-08-23 16:05:14,1m - 4.111s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-23 16:04:11,2019-08-23 16:04:11,0.005s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-23 16:04:11,2019-08-23 16:04:16,5.326s,PASSED
+window().maximize(),,,,2019-08-23 16:04:16,2019-08-23 16:04:17,1.163s,PASSED
+"driver.get(""http://workilo.com"")",,,,2019-08-23 16:04:17,2019-08-23 16:04:25,7.837s,PASSED
+try,,,,2019-08-23 16:04:25,2019-08-23 16:05:13,47.803s,PASSED
+driver.quit(),,,,2019-08-23 16:05:13,2019-08-23 16:05:14,0.996s,PASSED

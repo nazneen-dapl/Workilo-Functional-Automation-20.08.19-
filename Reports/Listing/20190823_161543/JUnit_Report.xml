@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Listing" time="61" tests="0" failures="0" errors="1">
+    <testsuite name="Listing" tests="0" failures="0" errors="1" time="61" timestamp="2019-08-23 16:15:47" hostname="DAPL-Asset-180 - DAPL-Asset-180" id="Test Suites/Listing">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Listing\\20190823_161543"/>
+            <property name="logFiles" value="C:\\Users\\DAPL-Asset-180\\Desktop\\project folder\\Workilo\\WorkiloAutomation(14.8.19)\\Reports\\Listing\\20190823_161543\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="DAPL-Asset-180 - DAPL-Asset-180"/>
+            <property name="hostAddress" value="192.168.1.188"/>
+            <property name="os" value="Windows 8.1 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+        </properties>
+        <testcase name="Test Cases/Workilo/Listing/Edit Listing/EditListing" classname="Test Cases/Workilo/Listing/Edit Listing/EditListing" status="ERROR">
+            <error type="ERROR" message="Test Cases/Workilo/Listing/Edit Listing/EditListing FAILED.&#xA;Reason:&#xA;groovy.lang.MissingPropertyException: No such property: OutputType for class: Script1563542541129&#xD;&#xA;&#x9;at EditListing.run(EditListing:100)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566557143274.run(TempTestSuite1566557143274.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-23 16:15:47 - [TEST_CASE][ERROR] - Test Cases/Workilo/Listing/Edit Listing/EditListing: Test Cases/Workilo/Listing/Edit Listing/EditListing FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: OutputType for class: Script1563542541129&#xD;
+	at EditListing.run(EditListing:100)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566557143274.run(TempTestSuite1566557143274.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-23 16:15:48 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromePath): null&#xD;
+&#xD;
+2019-08-23 16:15:48 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(): null&#xD;
+&#xD;
+2019-08-23 16:15:52 - [TEST_STEP][PASSED] - window().maximize(): null&#xD;
+&#xD;
+2019-08-23 16:15:54 - [TEST_STEP][PASSED] - driver.get("http://workilo.com"): null&#xD;
+&#xD;
+2019-08-23 16:16:03 - [TEST_STEP][PASSED] - timeouts().implicitlyWait(30, SECONDS): null&#xD;
+&#xD;
+2019-08-23 16:16:03 - [TEST_STEP][PASSED] - try: null&#xD;
+&#xD;
+2019-08-23 16:16:03 - [TEST_STEP][PASSED] - linkText("Log In")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:03 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:16:05 - [TEST_STEP][PASSED] - id("email_login")).sendKeys("testworkilo@gmail.com"): null&#xD;
+&#xD;
+2019-08-23 16:16:05 - [TEST_STEP][PASSED] - id("password_login")).sendKeys("admin#123"): null&#xD;
+&#xD;
+2019-08-23 16:16:05 - [TEST_STEP][PASSED] - //*[@value='Log in']")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:06 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-08-23 16:16:09 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[3]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:09 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:16:11 - [TEST_STEP][PASSED] - xpath("/html/body/div[4]/div/div[3]/ul/li[1]/a")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - js = driver: null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - listItem = driver.findElements(By.xpath("/html/body/div[6]/div/div/div/div/div[2]/div")): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - out.println("Total Number of List Item == " + listItem.size()): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - if (listItem.size() == 0): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - for ([i = 0, i &lt; listItem.size(), (i++)]): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - if (i == 1): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - if (i == 1): null&#xD;
+&#xD;
+2019-08-23 16:16:12 - [TEST_STEP][PASSED] - xpath("/html/body/div[6]/div/div/div/div/div[2]/div[" + i + "]/div/div[3]/a[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:13 - [TEST_STEP][PASSED] - js.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.name("category"))): null&#xD;
+&#xD;
+2019-08-23 16:16:13 - [TEST_STEP][PASSED] - Thread.sleep(2000): null&#xD;
+&#xD;
+2019-08-23 16:16:15 - [TEST_STEP][PASSED] - id("total_price")).clear(): null&#xD;
+&#xD;
+2019-08-23 16:16:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null&#xD;
+&#xD;
+2019-08-23 16:16:17 - [TEST_STEP][PASSED] - id("total_price")).sendKeys("10"): null&#xD;
+&#xD;
+2019-08-23 16:16:17 - [TEST_STEP][PASSED] - js.executeScript("window.scrollTo(0, document.body.scrollHeight)"): null&#xD;
+&#xD;
+2019-08-23 16:16:17 - [TEST_STEP][PASSED] - xpath("//*[@id='editlising']/div[2]/input")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:18 - [TEST_STEP][PASSED] - js.executeScript("window.scrollBy(0,500)"): null&#xD;
+&#xD;
+2019-08-23 16:16:18 - [TEST_STEP][PASSED] - action = new org.openqa.selenium.interactions.Actions(driver): null&#xD;
+&#xD;
+2019-08-23 16:16:18 - [TEST_STEP][PASSED] - xpath("/html/body/header/div/span[1]")).click(): null&#xD;
+&#xD;
+2019-08-23 16:16:48 - [TEST_STEP][PASSED] - catch (Exception e): null&#xD;
+&#xD;
+2019-08-23 16:16:48 - [TEST_STEP][PASSED] - src = driver.getScreenshotAs(FILE): null</system-out>
+            <system-err>2019-08-23 16:15:47 - [TEST_CASE][ERROR] - Test Cases/Workilo/Listing/Edit Listing/EditListing: Test Cases/Workilo/Listing/Edit Listing/EditListing FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: OutputType for class: Script1563542541129&#xD;
+	at EditListing.run(EditListing:100)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566557143274.run(TempTestSuite1566557143274.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-08-23 16:15:47 - [TEST_SUITE][INCOMPLETE] - Listing: null</system-out>
+        <system-err>2019-08-23 16:15:47 - [TEST_SUITE][INCOMPLETE] - Listing: null</system-err>
+    </testsuite>
+</testsuites>

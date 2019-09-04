@@ -152,7 +152,7 @@
       <guid>72953a37-2adf-4d82-92b0-a9f9df39a26b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted(All)</testCaseId>
+      <testCaseId>Test Cases/Workilo/Bookings/ServiceProvider/TaskCompleted</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

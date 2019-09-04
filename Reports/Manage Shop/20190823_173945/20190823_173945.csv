@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manage Shop,,,,2019-08-23 17:39:49,2019-08-23 17:41:17,1m - 28.361s,INCOMPLETE
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopInfo,,,,2019-08-23 17:39:50,2019-08-23 17:40:41,51.586s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-23 17:39:51,2019-08-23 17:39:51,0.010s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-23 17:39:51,2019-08-23 17:39:55,3.774s,PASSED
+window().maximize(),,,,2019-08-23 17:39:55,2019-08-23 17:39:56,1.200s,PASSED
+try,,,,2019-08-23 17:39:56,2019-08-23 17:40:40,43.768s,PASSED
+catch (Exception e),,,,2019-08-23 17:40:40,2019-08-23 17:40:41,0.816s,PASSED
+driver.quit(),,,,2019-08-23 17:40:41,2019-08-23 17:40:41,0.666s,PASSED
+,,,,,,,
+Test Cases/Workilo/ManageShop/ShopStats,,,,2019-08-23 17:40:41,2019-08-23 17:41:17,36.203s,ERROR
+"System.setProperty(""webdriver.chrome.driver"", chromePath)",,,,2019-08-23 17:40:42,2019-08-23 17:40:42,0.010s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,,2019-08-23 17:40:42,2019-08-23 17:40:44,2.340s,PASSED
+window().maximize(),,,,2019-08-23 17:40:44,2019-08-23 17:40:45,1.156s,PASSED
+try,,,,2019-08-23 17:40:45,2019-08-23 17:41:17,32.077s,PASSED
+catch (Exception e),,,,2019-08-23 17:41:17,2019-08-23 17:41:17,0.010s,PASSED
